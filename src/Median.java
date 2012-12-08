@@ -11,11 +11,11 @@ public class Median {
 
 	public static void main(String[] args) throws Exception {
 		
-		Date starttime = new Date();
-		File f =  new File("./Median/input00.txt");
-		
-		//Scanner in = new Scanner(System.in);
-		Scanner in = new Scanner(f);
+//		Date starttime = new Date();
+//		File f =  new File("./Median/input00.txt");
+//		
+		Scanner in = new Scanner(System.in);
+		//Scanner in = new Scanner(f);
 		int N;
 		N = in.nextInt();
 	
@@ -38,7 +38,7 @@ public class Median {
 	 	    	 
 	    	 }else if(s[i].equals("r")){
 	    		 Integer o = x[i];
-	 	    	 if(alist.contains(o)){
+	 	    	 if(find(alist,o)){
 	    		 alist.remove(o);
 	    		 printMedian(alist);
 	 	    	   if(alist.size()==0){
@@ -52,10 +52,10 @@ public class Median {
 	    	 
 	        }
 	   
-		Date endtime = new Date();
-		long time=endtime.getTime()-starttime.getTime();
-		System.out.println("Time taken "+time+"milisecs");
-				
+//		Date endtime = new Date();
+//		long time=endtime.getTime()-starttime.getTime();
+//		System.out.println("Time taken "+time+"milisecs");
+//				
 		
 	}
 	
@@ -79,7 +79,29 @@ public class Median {
 		
 		
 	}
-	
+	public static boolean find(ArrayList<Integer> alist,Integer o){
+		
+		Collections.sort(alist);
+		
+		if (alist.size() == 0) {
+		      return false;
+		    }
+		
+		    int low = 0;
+		    int high = alist.size()-1;
+
+		    while(low <= high) {
+		      int middle = (low+high) /2; 
+		      if (o > alist.get(middle)){
+		        low = middle +1;
+		      } else if (o < alist.get(middle)){
+		        high = middle -1;
+		      } else { // The element has been found
+		        return true; 
+		      }
+		    }
+		    return false;
+		  }
 	
 }
 
