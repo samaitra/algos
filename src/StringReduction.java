@@ -19,14 +19,15 @@ public class StringReduction {
 	    
 			String s= in.next();
 		    String x=""; 
+		    String a="";
 		    for(int j=0;i<s.length();j++){
 			  if(j>0){
                  if(s.charAt(j)!=s.charAt(j+1))
                      x=x+getchar(s.charAt(j),s.charAt(j+1));   
                  else{
                         int k=j;
-                        while(k>0 && x.charAt(k)<rating[j-1]){
-                                candies[j-1]=max(candies[j-1],candies[j]+1);
+                        while(k>0 && x.charAt(k)<x.charAt(k-1)){
+                                a=a+getchar(x.charAt(k)<x.charAt(k-1));
                                 j--;
                         }
                 }
@@ -37,25 +38,10 @@ public class StringReduction {
 
 
 }
-}
+
 public static char getchar(char x,char y){
 	
-if(x=='a'){
-	if(y=='b'){
-		return 'c';
-	}
-}
 
-if(x=='b'){
-	if(y=='c'){
-		return 'a';
-	}
-}
 
-if(x=='c'){
-	if(y=='a'){
-		return 'b';
-	}
 }
-
 }
