@@ -17,35 +17,39 @@ public class StringReduction {
 		n = in.nextInt();
 		
 		for(int i=0;i<n;i++){
-	    
 			String s= in.next();
-		    String x=""; 
-		    String a="";
-		    for(int j=0;j<s.length()-1;j++){
-			  System.out.println("initial string "+s);
-                 if(s.charAt(j)!=s.charAt(j+1)){
+			System.out.println("initial string "+s);
+			
+			for(int j=0;j<s.length()-1;j++){
+			  
+                     if (s.charAt(j)!=s.charAt(j+1)){
                 	 char d = getchar(s.charAt(j),s.charAt(j+1)); 
                 	 String xx = s.substring((s.indexOf(s.charAt(j+1))+1));
                 	 s=d+xx;  
-                		
-                	     
-                  	 	int k=j;
-                        System.out.println("k ==="+k);
-                  	 	while(k>0 && s.charAt(k)!=s.charAt(k-1)){
-                        	d = getchar(s.charAt(k),s.charAt(k-1)); 
-                        	xx = s.substring((s.indexOf(s.charAt(k-1))+1));
-                       	 	s=d+xx;  
-                       	    k--;
+                     		System.out.println("s === "+s);
+                	 		for(int k=0;k<s.length()-1;k++){
+                	 		if (s.charAt(k)!=s.charAt(k+1)){
+                               	 	
+                	 	    d = getchar(s.charAt(k),s.charAt(k+1)); 
+                        	xx = s.substring((s.indexOf(s.charAt(k+1))+1));
+                       	 	System.out.println("d === "+d);
+                       	 	System.out.println("xx === "+xx);
+                    	 	
+                        	s=d+xx;  
+                	 		}
+                	 		System.out.println("s === "+s);
+                	 		
+                	 		}
                         }
                         
-                        System.out.println("s=============="+ s);
+                        
                 }
-        
+		    System.out.println("final string  === "+ s);
 		}
 		   
 	}
 
-}
+
 
 public static char getchar(char x,char y){
 
