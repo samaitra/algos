@@ -1,5 +1,4 @@
 import java.io.File;
-import java.util.HashMap;
 import java.util.Scanner;
 
 
@@ -8,7 +7,7 @@ public class StringReduction {
 	public static void main(String[] args) throws Exception{
 	
 		int n;
-		File f = new File("./StringReduction/input00.txt");
+		File f = new File("./StringReduction/input01.txt");
 		Scanner in = new Scanner(f);
 		//Scanner in = new Scanner(System.in);
 		n = in.nextInt();
@@ -30,11 +29,13 @@ public class StringReduction {
                 	 //System.out.println("s == "+s);
                 	 j=0;
                      
-                     }else{j++;}
+                     }else{
+                    	 j++;
+                    }
                 }
 		    System.out.println(s.length());
 		}
-		   
+		 in.close();  
 	}
 
 public static char getchar(char x,char y){

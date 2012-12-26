@@ -1,6 +1,3 @@
-5
-abababccca
-ccc
-ababab
-c
-c
+2
+aabbccc
+bacc
