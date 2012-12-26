@@ -8,33 +8,31 @@ public class StringReduction {
 	public static void main(String[] args) throws Exception{
 	
 		int n;
-		File f = new File("./StringReduction/input01.txt");
+		File f = new File("./StringReduction/input00.txt");
 		Scanner in = new Scanner(f);
 		//Scanner in = new Scanner(System.in);
 		n = in.nextInt();
 		
 		for(int i=0;i<n;i++){
-			String s= in.next();
-			
-			for(int j=0;j<s.length()-1;j++){
-			  
+			String s = in.next();
+			int j=0;
+			//System.out.println(s);
+			  while(j<s.length()-1){
                      if (s.charAt(j)!=s.charAt(j+1)){
-                	 char d = getchar(s.charAt(j),s.charAt(j+1)); 
-                	 String xx = s.substring((s.indexOf(s.charAt(j+1))+1));
-                	 s=d+xx;  
-                	 		for(int k=0;k<s.length()-1;k++){
-                	 		
-                	 		  if (s.charAt(k)!=s.charAt(k+1)){
-                	 			char dy = getchar(s.charAt(k),s.charAt(k+1)); 
-                	 			String xy = s.substring((s.indexOf(s.charAt(k+1))+1));
-                	 			s=dy+xy;
-                	 			
-                	 		}
-                	 		
-                	 		}
-                        }
+                	 
+                     char d = getchar(s.charAt(j),s.charAt(j+1)); 
+                	 String before = s.substring(0,j);
+                	 //System.out.println("before "+before);
+                	 String after = s.substring(j+2,s.length());
+                	 //System.out.println("d "+d);
+                	 //System.out.println("after "+after);
+                	 s=before+d+after;  
+                	 //System.out.println("s == "+s);
+                	 j=0;
+                     
+                     }else{j++;}
                 }
-		    System.out.println(s);
+		    System.out.println(s.length());
 		}
 		   
 	}

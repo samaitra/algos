@@ -1,4 +1,6 @@
-3
+5
 abababccca
 ccc
 ababab
+c
+c
