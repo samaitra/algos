@@ -1,3 +1,2 @@
-2
-aabbccc
+1
 bacc
