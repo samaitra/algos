@@ -14,104 +14,79 @@ public class StringReduction {
 		
 		for(int i=0;i<n;i++){
 			String s = in.next();
-			int countA=0;
-            int countB=0;
-            int countC=0;
-            int k=0;
 
-             while(k<s.length()){
-                if(s.charAt(k)=='a')
-                    countA++;
-                else if (s.charAt(k)=='b')
-                    countB++;
-                else if (s.charAt(k)=='c')
-                    countC++;
-                k++;
+            int j=1;
+            while(j<(s.length())){
 
-             }
-             int j=0;
-            while(j<(s.length()-1)){
-              char x = getReductionChar(countA,countB,countC);
-                //System.out.println("char to reduce   "+x);
-                //System.out.println("j "+j);
-                if(x==s.charAt(j) || x==s.charAt(s.length()-1) ||x==s.charAt(0)){
-                    if (s.charAt(j)!=s.charAt(j+1)){
-                      //System.out.println("I am here");
-                     char d = getchar(s.charAt(j),s.charAt(j+1));
-
-                     if(s.charAt(j)=='a'){
-                         countA--;
-                     }else if(s.charAt(j)=='b'){
-                         countB--;
-                     }else if (s.charAt(j)=='c'){
-                         countC--;
-                     }
-
-                        if(s.charAt(j+1)=='a'){
-                            countA--;
-                        }else if(s.charAt(j+1)=='b'){
-                            countB--;
-                        }else if (s.charAt(j+1)=='c'){
-                            countC--;
-                        }
-
-                        if(d=='a'){
-                            countA++;
-                        }else if(d=='b'){
-                            countB++;
-                        }else if (d=='c'){
-                            countC++;
-                        }
-
-                     String before = s.substring(0,j);
-                	 String after = s.substring(j+2,s.length());
-                	 s = before+d+after;
-                     //System.out.println("In if "+s);
-                     j=0;
-                    } else if(j>0){
-                       if (s.charAt(j-1)!=s.charAt(j)){
-
-                        char d = getchar(s.charAt(j),s.charAt(j-1));
-
-                        if(s.charAt(j)=='a'){
-                            countA--;
-                        }else if(s.charAt(j)=='b'){
-                            countB--;
-                        }else if (s.charAt(j)=='c'){
-                            countC--;
-                        }
-
-                        if(s.charAt(j-1)=='a'){
-                            countA--;
-                        }else if(s.charAt(j-1)=='b'){
-                            countB--;
-                        }else if (s.charAt(j-1)=='c'){
-                            countC--;
-                        }
-
-                        if(d=='a'){
-                            countA++;
-                        }else if(d=='b'){
-                            countB++;
-                        }else if (d=='c'){
-                            countC++;
-                        }
-
-                        String before = s.substring(0,j-1);
-                        String after = s.substring(j+1,s.length());
-                        s = before+d+after;
-                        //System.out.println("In else "+s);
-                        j=0;
-                    }
-                   }
-                  }
-                  j++;
+                int a=0;
+                int b=0;
+                int c=0;
+                int k=0;
+                while(k<s.length()){
+                    if(s.charAt(k)=='a')
+                        a++;
+                    else if (s.charAt(k)=='b')
+                        b++;
+                    else if (s.charAt(k)=='c')
+                        c++;
+                    k++;
                 }
-             if(s.length()==2 && s.charAt(0)!=s.charAt(1)){
-                 char d = getchar(s.charAt(0),s.charAt(1));
-                    s = String.valueOf(d);
-             }
-             System.out.println(s.length());
+                char x = getReductionChar(a,b,c);
+                //System.out.println("x ============   " +x);
+                if(x==s.charAt(j) && s.charAt(j)!=s.charAt(j-1)){
+                    String oldStr = String.valueOf(s.charAt(j-1))+String.valueOf(s.charAt(j));
+                    String newStr = String.valueOf(getchar(s.charAt(j-1),s.charAt(j)));
+                    //System.out.println("oldStr ===========  "+oldStr);
+                    //System.out.println("newStr ===========  "+newStr);
+
+                    s = s.replace(oldStr,newStr);
+
+                    j=0;
+                }
+                try{
+                if(x==s.charAt(j) && s.charAt(j)!=s.charAt(j+1)){
+                    String oldStr = String.valueOf(s.charAt(j))+String.valueOf(s.charAt(j+1));
+                    String newStr = String.valueOf(getchar(s.charAt(j),s.charAt(j+1)));
+                    //System.out.println("oldStr ===========  "+oldStr);
+                    //System.out.println("newStr ===========  "+newStr);
+
+                    s = s.replace(oldStr,newStr);
+
+                    j=0;
+                }
+
+                }catch (Exception e){
+
+                }
+
+
+                j++;
+                //System.out.println(s);
+                }
+
+             j=1;
+
+
+
+
+
+            while(j<(s.length())){
+
+                if(s.charAt(j)!=s.charAt(j-1)){
+                    String oldStr = String.valueOf(s.charAt(j-1))+String.valueOf(s.charAt(j));
+                    String newStr = String.valueOf(getchar(s.charAt(j-1),s.charAt(j)));
+                    //System.out.println("oldStr ===========  "+oldStr);
+                    //System.out.println("newStr ===========  "+newStr);
+
+                    s = s.replace(oldStr,newStr);
+
+                    j=0;
+                }
+                j++;
+                //System.out.println(s);
+            }
+            //System.out.println(s);
+            System.out.println(s.length());
         }
     }
 public static char getchar(char x,char y){
@@ -131,16 +106,16 @@ public static char getchar(char x,char y){
 	return 'z';
 
 }
+public static char getReductionChar(int a,int b,int c){
+    int max = Math.max(c,Math.max(a,b));
+    if(max==a){
+        return 'a';
+    }else if (max==b){
+        return 'b';
 
-    public static char getReductionChar(int a,int b,int c){
-        if(a>=b && a>=c)
-            return 'a';
-        else if(b>=c && b>=a)
-            return 'b';
-        else
-            return 'c';
-    }
-
-
-
+    }else if(max==c){
+        return 'c';
+    }else
+        return '0';
+}
 }
