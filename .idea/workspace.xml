@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/StringSimilarity.java" line="26" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="18abd40b-58ea-467c-871b-b1f65e245ef9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringReduction.java" afterPath="$PROJECT_DIR$/src/StringReduction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StringReduction/input01.txt" afterPath="$PROJECT_DIR$/StringReduction/input01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StringSimilarity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StringSimilarity/input00.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StringSimilarity/output00.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="18abd40b-58ea-467c-871b-b1f65e245ef9" time="1356812998848" ignored="false" />
+    <file path="/Dummy.txt" changelist="18abd40b-58ea-467c-871b-b1f65e245ef9" time="1358702586411" ignored="false" />
     <file path="/StringReduction.java" changelist="18abd40b-58ea-467c-871b-b1f65e245ef9" time="1356853467039" ignored="false" />
     <file path="/input01.txt" changelist="18abd40b-58ea-467c-871b-b1f65e245ef9" time="1356850361612" ignored="false" />
+    <file path="/StringSimilarity.java" changelist="18abd40b-58ea-467c-871b-b1f65e245ef9" time="1358706794619" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,7 +70,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,10 +79,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringReduction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StringReduction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringReduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="0" selection-end="1498" vertical-scroll-proportion="0.39697543">
+            <state line="26" column="46" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringSimilarity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StringSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="36" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.8490566">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input00.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringSimilarity/input00.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output00.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringSimilarity/output00.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,6 +155,7 @@
       <list>
         <option value="$PROJECT_DIR$/StringReduction/input01.txt" />
         <option value="$PROJECT_DIR$/src/StringReduction.java" />
+        <option value="$PROJECT_DIR$/src/StringSimilarity.java" />
       </list>
     </option>
   </component>
@@ -155,8 +191,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="StringReduction" />
+              <option name="myItemId" value="StringSimilarity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,6 +239,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,9 +254,25 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.StringReduction">
+  <component name="RunManager" selected="Application.StringSimilarity">
     <configuration default="false" name="StringReduction" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="StringReduction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algos" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringSimilarity" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="StringSimilarity" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -323,12 +375,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.StringReduction" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringSimilarity" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringReduction" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.StringSimilarity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringReduction" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -380,8 +434,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16252074" sideWeight="0.5923159" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4076841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16252074" sideWeight="0.59338313" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40661687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,20 +503,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringReduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StringReduction/input01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringReduction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="51" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
@@ -547,10 +587,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StringSimilarity/input00.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringSimilarity/output00.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringReduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="0" selection-end="1498" vertical-scroll-proportion="0.39697543">
+        <state line="26" column="46" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="36" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.8490566">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
