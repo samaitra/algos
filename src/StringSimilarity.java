@@ -1,14 +1,13 @@
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+
 import java.io.File;
 import java.io.FileReader;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-/**
- * Created with IntelliJ IDEA.
- * User: saikat
- * Date: 20/1/13
- * Time: 10:58 PM
- * To change this template use File | Settings | File Templates.
- */
+import static java.lang.System.arraycopy;
+
 public class StringSimilarity {
 
     public static void main(String args[]) throws Exception{
@@ -18,26 +17,34 @@ public class StringSimilarity {
     int n = in.nextInt();
     System.out.println("n "+n);
 
-        for(int j=0;j<n;j++){
-            String str = in.next();
-            System.out.println(str);
-            int count=0;
-            for(int i=0;i<str.length();i++){
-               String suffixString = str.substring(i);
-                System.out.println("suffixString "+suffixString);
+        for(int k=0;k<n;k++){
 
-                for(int index=0;index<suffixString.length();index++){
-                    if(str.charAt(index)==suffixString.charAt(index)){
-                        count++;
-                    }else{
+            String str = in.next();
+
+            int c=0;
+            char[] charArray = str.toCharArray();
+            int len = str.length();
+            System.out.println(str);
+            for(int i=0;i<len;i++){
+
+                for(int j=i;j<len;j++){
+                    System.out.println("charArray[j-i] "+charArray[j-i]);
+                    System.out.println("charArray[j] "+charArray[j]);
+
+                    if(charArray[j-i]==charArray[j]){
+                        c++;
+                    } else{
                         break;
                     }
+
+                    System.out.println("loop completes =============== " +i);
                 }
 
 
             }
-            System.out.println(count);
+            System.out.println(c);
         }
     }
+
 
 }
