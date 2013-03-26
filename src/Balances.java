@@ -9,7 +9,7 @@ class Balances{
 
 public static void main(String[] argv) throws Exception{
 
-	Scanner in = new Scanner(new FileReader(new File("../balances/input00.txt")));
+	Scanner in = new Scanner(new FileReader(new File("balances/input01.txt")));
 
     int n = in.nextInt();
     System.out.println("n "+n);
@@ -17,24 +17,20 @@ public static void main(String[] argv) throws Exception{
 
     for(int i=0;i<n;i++){
       Node x = new Node();
+        System.out.println("node number "+i);
 
-     for(int j=0;j<2;j++){
-        if(j=0){
+        for(int j=0;j<2;j++){
+
+        if(j==0){
         String nodeValue = in.next();
-        String a[]= nodeValue.split(" ");
-        int weight = Integer.parseInt(a[0]);
-        int balance = Integer.parseInt(a[1]);
-
+        System.out.println("left weight "+nodeValue);
+        tree.addLeftChild(x, Integer.parseInt(nodeValue));
         }
         else{
 
             String nodeValue = in.next();
-            String a[]= nodeValue.split(" ");
-            int weight = Integer.parseInt(a[0]);
-            int balance = Integer.parseInt(a[1]);
-            tree.root.left = balance
-
-
+            System.out.println("right weight "+nodeValue);
+            tree.addRightChild(x,Integer.parseInt(nodeValue));
         }
 
      }
@@ -52,6 +48,13 @@ public static class Tree<T> {
         root.right = new Node<T>();
     }
 
+    public void addLeftChild(Node n, int weight){
+
+    }
+
+    public void addRightChild(Node n, int weight){
+
+    }
 
 
 
