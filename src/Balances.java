@@ -35,10 +35,18 @@ public static void main(String[] argv) throws Exception{
 
      }
     }
-
+    printTree(tree.root);
 }
 
-public static class Tree<T> {
+    private static void printTree(Node n) {
+
+       System.out.println("root left "+n.left.data);
+       System.out.println(n.data);
+       System.out.println("root right "+n.right.data);
+
+    }
+
+    public static class Tree<T> {
     private Node<T> root;
 
     public Tree(T rootData) {
@@ -49,10 +57,15 @@ public static class Tree<T> {
     }
 
     public void addLeftChild(Node n, int weight){
-
+     Node newNode = new Node();
+     newNode.data=weight;
+     n.left=newNode;
     }
 
     public void addRightChild(Node n, int weight){
+        Node newNode = new Node();
+        newNode.data=weight;
+        n.right=newNode;
 
     }
 
