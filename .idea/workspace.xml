@@ -2,21 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindStrings/input.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/balances/input01.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Balances.java" afterPath="$PROJECT_DIR$/src/Balances.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SuffixTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FindStrings.java" afterPath="$PROJECT_DIR$/src/FindStrings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364447126457" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364549643533" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
-    <file path="/FindStrings.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364404164398" ignored="false" />
+    <file path="/FindStrings.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364580979989" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/Common.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364489185882" ignored="false" />
+    <file path="/Common.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364456473730" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/build.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364450246993" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/output/dist/lib/local/config.properties" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465821547" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/pages/LandingPage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364457788295" ignored="false" />
+    <file path="/LandingPage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364457427558" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/landing/src/LandingPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364470153585" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/BaseTest.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364476450260" ignored="false" />
+    <file path="/LandingPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364457863142" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/pages/BrowsePage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364461733795" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/browse/src/BrowsePageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364461907316" ignored="false" />
+    <file path="/BrowsePageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364461874477" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/product/src/ProductPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462569785" ignored="false" />
+    <file path="/ProductPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462567425" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/product/src/SellerPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462623015" ignored="false" />
+    <file path="/SellerPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462622432" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/search/src/SearchPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462776945" ignored="false" />
+    <file path="/SearchPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364462764074" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/pages/UGCServicePage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464476412" ignored="false" />
+    <file path="/UGCServicePage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464476412" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/notification/src/NotificationTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464684616" ignored="false" />
+    <file path="/NotificationTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464665771" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/profile/src/UGCServiceTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465627914" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/surveys/src/SurveyPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465746717" ignored="false" />
+    <file path="/SurveyPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465741102" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/core/session_service/content.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465797507" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/Login.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465797507" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/discovery/cmsapi/scripts/Cms_Api_TestNG.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364467554414" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/output/dist/lib/preprod/config.properties" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364471670248" ignored="false" />
+    <file path="/BaseTest.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364472960877" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/Checkout.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364477862018" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/Review.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364489389273" ignored="false" />
+    <file path="/Review.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364478602070" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/ratings_reviews/content.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364489287332" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/automation/framework/Fk-Harness/fitnesse/FitNesseRoot/FlipkartWebsiteTestSuite/UserEngage/RatingsReviewsTest/properties.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364489006648" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +62,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,6 +96,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -96,11 +127,28 @@
       <file leaf-file-name="FindStrings.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FindStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="42" selection-start="468" selection-end="468" vertical-scroll-proportion="0.33294392">
+            <state line="17" column="37" selection-start="424" selection-end="424" vertical-scroll-proportion="0.46279493">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#166#174#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuffixTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SuffixTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input05.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FindStrings/input05.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,13 +214,14 @@
         <option value="$PROJECT_DIR$/src/Balances.java" />
         <option value="$PROJECT_DIR$/FindStrings/input.txt" />
         <option value="$PROJECT_DIR$/src/FindStrings.java" />
+        <option value="$PROJECT_DIR$/src/SuffixTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -200,7 +249,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,6 +311,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -279,6 +328,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FindStrings" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.FindStrings">
     <configuration default="false" name="StringSimilarity" type="Application" factoryName="Application" temporary="true">
@@ -467,11 +521,15 @@
       <created>1364323704466</created>
       <updated>1364323704466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="suffix arrays">
+      <created>1364448350223</created>
+      <updated>1364448350223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="722" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,16 +540,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16008538" sideWeight="0.6112957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15964344" sideWeight="0.6112957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38870433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -534,7 +592,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="suffix arrays" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -548,6 +606,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="tree changes" />
+    <MESSAGE value="suffix arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -557,16 +616,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StringSimilarity/input00.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StringSimilarity/output00.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StringSimilarity/output00.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -652,12 +701,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FindStrings/input05.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SuffixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="468" selection-end="468" vertical-scroll-proportion="0.33294392">
+        <state line="17" column="37" selection-start="424" selection-end="424" vertical-scroll-proportion="0.46279493">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#166#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
