@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BinaryTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Node.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SuffixArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SuffixTree.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Balances.java" afterPath="$PROJECT_DIR$/src/com/hr/Balances.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Candies.java" afterPath="$PROJECT_DIR$/src/com/hr/Candies.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CityMap.java" afterPath="$PROJECT_DIR$/src/com/tc/CityMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindStrings.java" afterPath="$PROJECT_DIR$/src/com/hr/FindStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Flower.java" afterPath="$PROJECT_DIR$/src/com/hr/Flower.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Median.java" afterPath="$PROJECT_DIR$/src/com/hr/Median.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Pairs.java" afterPath="$PROJECT_DIR$/src/com/hr/Pairs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/StringReduction.java" afterPath="$PROJECT_DIR$/src/com/hr/StringReduction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/StringSimilarity.java" afterPath="$PROJECT_DIR$/src/com/hr/StringSimilarity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/A-large-practice.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/A-small-practice.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/ReverseWords.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/StoreCredit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/b.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364813663101" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364831672197" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -47,7 +41,7 @@
     <file path="$PROJECT_DIR$/../qa/tests/website/engage/notification/src/NotificationTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464684616" ignored="false" />
     <file path="/NotificationTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364464665771" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/website/engage/profile/src/UGCServiceTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465627914" ignored="false" />
-    <file path="$PROJECT_DIR$/../qa/tests/website/engage/surveys/src/SurveyPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465746717" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/surveys/src/SurveyPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364814345032" ignored="false" />
     <file path="/SurveyPageTests.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465741102" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/website/core/session_service/content.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465797507" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/website/common/utils/Login.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364465797507" ignored="false" />
@@ -62,6 +56,8 @@
     <file path="/SuffixTree.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364672222179" ignored="false" />
     <file path="/SuffixArray.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364710296218" ignored="false" />
     <file path="/fragment.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364813772687" ignored="false" />
+    <file path="$PROJECT_DIR$/../qa/tests/website/engage/surveys/pages/SurveyPage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364814345032" ignored="false" />
+    <file path="/StoreCredit.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364835440385" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +125,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/Flower.java">
+      <file leaf-file-name="Candies.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hr/Candies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreCredit.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/google/StoreCredit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="48" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b.out" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreCredit/b.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWords.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="25" selection-start="202" selection-end="202" vertical-scroll-proportion="0.24500908">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.out" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreCredit/a.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A-large-practice.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreCredit/A-large-practice.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A-small-practice.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StoreCredit/A-small-practice.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,66 +199,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Candies.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/Candies.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityMap.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tc/CityMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.13250883">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Balances.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/Balances.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringSimilarity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/StringSimilarity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="71" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringReduction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/StringReduction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pairs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hr/Pairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input00.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/balances/input00.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="80" column="19" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,13 +237,17 @@
         <option value="$PROJECT_DIR$/src/SuffixArray.java" />
         <option value="$PROJECT_DIR$/src/com/hr/SuffixArray.java" />
         <option value="$PROJECT_DIR$/src/com/tc/CityMap.java" />
+        <option value="$PROJECT_DIR$/StoreCredit/input.txt" />
+        <option value="$PROJECT_DIR$/StoreCredit/a.out" />
+        <option value="$PROJECT_DIR$/src/com/google/StoreCredit.java" />
+        <option value="$PROJECT_DIR$/StoreCredit/b.out" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -276,7 +276,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,6 +305,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StringSimilarity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StoreCredit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,6 +383,10 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -401,6 +418,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,6 +438,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/StoreCredit" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/FindStrings" />
     </key>
@@ -427,23 +446,7 @@
       <recent name="com.hr" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SuffixTree.sampleUsage">
-    <configuration default="false" name="StringSimilarity" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hr.StringSimilarity" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algos" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StoreCredit">
     <configuration default="false" name="Balances" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.Balances" />
       <option name="VM_PARAMETERS" />
@@ -510,6 +513,22 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StoreCredit" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.StoreCredit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algos" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -603,19 +622,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StringSimilarity" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Balances" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FindStrings" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SuffixTree" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Balances" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FindStrings" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SuffixTree" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StoreCredit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FindStrings" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SuffixTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Balances" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringSimilarity" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StoreCredit" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FindStrings" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SuffixTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Balances" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -664,31 +683,35 @@
       <created>1364582063062</created>
       <updated>1364582063062</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new packages">
+      <created>1364814093187</created>
+      <updated>1364814093187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23692636" sideWeight="0.6719457" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.679402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23662885" sideWeight="0.358804" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.641196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -731,7 +754,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="suffix tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="new packages" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -747,6 +770,7 @@
     <MESSAGE value="tree changes" />
     <MESSAGE value="suffix arrays" />
     <MESSAGE value="suffix tree" />
+    <MESSAGE value="new packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -756,39 +780,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StringSimilarity/input00.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindStrings/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindStrings/input05.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balances/output00.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balances/input00.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hr/StringSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="71" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
@@ -803,23 +794,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/Pairs.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hr/Balances.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+        <state line="8" column="6" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/FindStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tc/CityMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.08782201">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hr/Flower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.08782201">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreCredit/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -831,6 +831,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hr/FindStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="45" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hr/Candies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
@@ -838,19 +845,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/Balances.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hr/Pairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="80" column="19" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tc/CityMap.java">
+    <entry file="file://$PROJECT_DIR$/StoreCredit/A-small-practice.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.13250883">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreCredit/a.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreCredit/A-large-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/StoreCredit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreCredit/b.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="202" selection-end="202" vertical-scroll-proportion="0.24500908">
+          <folding />
         </state>
       </provider>
     </entry>
