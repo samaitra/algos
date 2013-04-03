@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReverseWords/a.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/ReverseWords.java" afterPath="$PROJECT_DIR$/src/com/google/ReverseWords.java" />
-    </list>
-    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/A-large-practice.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/A-small-practice.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/a.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/b.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StoreCredit/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spelling/C-large-practice.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spelling/C-small-practice.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/Spelling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spelling/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist" />
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916457094" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364975035849" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -60,7 +56,6 @@
     <file path="/fragment.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364903096440" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/website/engage/surveys/pages/SurveyPage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364814345032" ignored="false" />
     <file path="/StoreCredit.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364835440385" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916456759" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/website/common/pages/ProductPage.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364885757812" ignored="false" />
     <file path="/README" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364886176358" ignored="false" />
     <file path="$PROJECT_DIR$/../qa/tests/android/discovery/README" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364886161286" ignored="false" />
@@ -87,6 +82,7 @@
     <file path="/ReverseWords.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364915961693" ignored="false" />
     <file path="/a.out" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916207536" ignored="false" />
     <file path="/b.out" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916343612" ignored="false" />
+    <file path="/Spelling.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364974486191" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,68 +141,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReverseWords.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spelling/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="68" selection-start="608" selection-end="608" vertical-scroll-proportion="0.4773519">
+            <state line="0" column="20" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spelling.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/google/Spelling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="78" selection-start="531" selection-end="531" vertical-scroll-proportion="0.026086956">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="b.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseWords/b.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="B-large-practice.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseWords/B-large-practice.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="a.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseWords/a.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="B-small-practice.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseWords/B-small-practice.in">
+        <entry file="file://$PROJECT_DIR$/Spelling/a.out">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreCredit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/google/StoreCredit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="290" selection-end="719" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseWords/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -230,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/Balances.java" />
         <option value="$PROJECT_DIR$/FindStrings/input.txt" />
         <option value="$PROJECT_DIR$/src/FindStrings.java" />
         <option value="$PROJECT_DIR$/src/SuffixTree.java" />
@@ -246,13 +202,15 @@
         <option value="$PROJECT_DIR$/ReverseWords/a.out" />
         <option value="$PROJECT_DIR$/src/com/google/ReverseWords.java" />
         <option value="$PROJECT_DIR$/ReverseWords/b.out" />
+        <option value="$PROJECT_DIR$/Spelling/input.txt" />
+        <option value="$PROJECT_DIR$/src/com/google/Spelling.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,7 +219,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -403,7 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ReverseWords" />
+              <option name="myItemId" value="Spelling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,6 +387,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spelling" />
       <recent name="$PROJECT_DIR$/ReverseWords" />
       <recent name="$PROJECT_DIR$/StoreCredit" />
       <recent name="$PROJECT_DIR$/lib" />
@@ -438,25 +397,9 @@
       <recent name="com.hr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWords">
+  <component name="RunManager" selected="Application.Spelling">
     <configuration default="false" name="FindStrings" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.FindStrings" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algos" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SuffixTree" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hr.SuffixTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -511,6 +454,22 @@
     </configuration>
     <configuration default="false" name="ReverseWords" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.google.ReverseWords" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algos" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Spelling" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.Spelling" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -615,18 +574,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.FindStrings" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SuffixTree" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StoreCredit" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReverseWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StoreCredit" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseWords" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Spelling" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ReverseWords" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StoreCredit" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindStrings" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SuffixTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Spelling" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseWords" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StoreCredit" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SuffixTree.sampleUsage" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FindStrings" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -688,7 +647,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="723" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -699,16 +658,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23662885" sideWeight="0.7009967" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23662885" sideWeight="0.7009967" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29900333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -778,47 +737,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StoreCredit/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreCredit/A-small-practice.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreCredit/A-large-practice.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/FindStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/Candies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoreCredit/b.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="49" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreCredit/a.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hr/Median.java">
@@ -838,50 +764,69 @@
     <entry file="file://$PROJECT_DIR$/src/com/google/StoreCredit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="4" selection-start="290" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReverseWords/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="24" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReverseWords/B-small-practice.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReverseWords/B-large-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReverseWords/b.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="293" selection-end="961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spelling/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReverseWords/a.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseWords/B-large-practice.in">
+    <entry file="file://$PROJECT_DIR$/Spelling/C-small-practice.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spelling/a.out">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseWords/b.out">
+    <entry file="file://$PROJECT_DIR$/Spelling/C-large-practice.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/Spelling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="68" selection-start="608" selection-end="608" vertical-scroll-proportion="0.4773519">
+        <state line="21" column="78" selection-start="531" selection-end="531" vertical-scroll-proportion="0.026086956">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
