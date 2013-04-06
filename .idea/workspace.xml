@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tc/TheSwapsDivTwo.java" />
+    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="" />
+    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheSwapsDivTwo/in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" afterPath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/is/in" afterPath="$PROJECT_DIR$/is/in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MinScalerProduct/input" afterPath="$PROJECT_DIR$/MinScalerProduct/input" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist" />
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365279108639" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365280209988" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -171,7 +168,7 @@
       <file leaf-file-name="TheNumberGameDivTwo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78125">
+            <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78397214">
               <folding />
             </state>
           </provider>
@@ -607,7 +604,11 @@
       <created>1365216024915</created>
       <updated>1365216024915</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="number soln">
+      <created>1365280199743</created>
+      <updated>1365280199743</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,6 +624,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -632,7 +634,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -679,7 +680,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="min scaler and isort" />
+    <option name="LAST_COMMIT_MESSAGE" value="number soln" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -699,6 +700,7 @@
     <MESSAGE value="new packages" />
     <MESSAGE value="StoreCredit solved" />
     <MESSAGE value="min scaler and isort" />
+    <MESSAGE value="number soln" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,12 +767,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/is/in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="11" selection-end="11" vertical-scroll-proportion="0.026132405" />
+        <state line="1" column="9" selection-start="11" selection-end="11" vertical-scroll-proportion="0.026132405">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hr/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="28" selection-start="843" selection-end="843" vertical-scroll-proportion="0.006968641" />
+        <state line="35" column="28" selection-start="843" selection-end="843" vertical-scroll-proportion="0.006968641">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheSwapsDivTwo/in">
@@ -789,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78125">
+        <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78397214">
           <folding />
         </state>
       </provider>
