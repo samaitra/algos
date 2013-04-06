@@ -14,18 +14,35 @@ import java.util.Scanner;
 public class InsertionSort {
       static void insertionSort(int a[]){
          int n = a.length;
+         //System.out.println("a length "+a.length);
          int last = a[(n-1)];
+         //System.out.println("last "+last);
 
-         for(int i=(n-1);i>0;i--){
-             if(last>a[(i-1)]){
-                 a[i]=last;
-                 printArray(a);
-                 break;
-             }else{
+          if(n==1){
+              printArray(a);
+          }
+          else if(n==2){
+
+             int temp = a[0];
+             a[0]=a[1];
+             a[1]=temp;
+              printArray(a);
+          }else{
+          int c=n-1;
+          for(int i=(n-1);i>0&&last<a[(i-1)];i--){
              a[i]=a[i-1];
-                 printArray(a);
-             }
-         }
+             printArray(a);
+             c=i;
+            }
+
+             a[c-1]=last;
+//              System.out.println("c "+c);
+//              System.out.println("a[c] " + a[c]);
+//              System.out.println("last " + last);
+              printArray(a);
+
+          }
+
      }
 
     static void printArray(int[] ar) {

@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tc/TheSwapsDivTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TheSwapsDivTwo/in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" afterPath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
-    </list>
-    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinScalerProduct/A-large-practice.in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinScalerProduct/A-small-practice.in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/is/in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinScalerProduct/input" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/is/in" afterPath="$PROJECT_DIR$/is/in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MinScalerProduct/input" afterPath="$PROJECT_DIR$/MinScalerProduct/input" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist" />
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365216036523" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365279108639" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -86,10 +86,10 @@
     <file path="/b.out" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916343612" ignored="false" />
     <file path="/Spelling.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364974486191" ignored="false" />
     <file path="/MinScalerProd.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365160456275" ignored="false" />
-    <file path="/InsertionSort.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365187373593" ignored="false" />
+    <file path="/InsertionSort.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365264553627" ignored="false" />
     <file path="/in" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365187655779" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365216132427" ignored="false" />
-    <file path="$PROJECT_DIR$/is/in" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365216128332" ignored="true" />
+    <file path="/TheSwapsDivTwo.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365265954271" ignored="false" />
+    <file path="/TheNumberGameDivTwo.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365267346635" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -141,6 +140,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -150,21 +150,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hr/InsertionSort.java">
+      <file leaf-file-name="TheSwapsDivTwo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tc/TheSwapsDivTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="440" selection-end="440" vertical-scroll-proportion="0.4467005">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/is/in">
+        <entry file="file://$PROJECT_DIR$/TheSwapsDivTwo/in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheNumberGameDivTwo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78125">
               <folding />
             </state>
           </provider>
@@ -188,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hr/SuffixArray.java" />
-        <option value="$PROJECT_DIR$/src/com/tc/CityMap.java" />
         <option value="$PROJECT_DIR$/StoreCredit/input.txt" />
         <option value="$PROJECT_DIR$/StoreCredit/a.out" />
         <option value="$PROJECT_DIR$/src/com/google/StoreCredit.java" />
@@ -202,8 +207,10 @@
         <option value="$PROJECT_DIR$/src/com/google/Spelling.java" />
         <option value="$PROJECT_DIR$/MinScalerProduct/input" />
         <option value="$PROJECT_DIR$/src/com/google/MinScalerProd.java" />
-        <option value="$PROJECT_DIR$/is/in" />
         <option value="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/is/in" />
+        <option value="$PROJECT_DIR$/src/com/tc/TheSwapsDivTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java" />
       </list>
     </option>
   </component>
@@ -256,6 +263,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSwapsDivTwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="is" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -289,39 +364,7 @@
       <recent name="com.hr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration default="false" name="StoreCredit" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.StoreCredit" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algos" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ReverseWords" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.ReverseWords" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algos" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TheNumberGameDivTwo">
     <configuration default="false" name="Spelling" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.google.Spelling" />
       <option name="VM_PARAMETERS" />
@@ -356,6 +399,38 @@
     </configuration>
     <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.InsertionSort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algos" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TheSwapsDivTwo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tc.TheSwapsDivTwo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algos" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TheNumberGameDivTwo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tc.TheNumberGameDivTwo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -459,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StoreCredit" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReverseWords" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Spelling" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MinScalerProd" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Spelling" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MinScalerProd" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TheSwapsDivTwo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TheNumberGameDivTwo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InsertionSort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinScalerProd" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Spelling" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReverseWords" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StoreCredit" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TheNumberGameDivTwo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TheSwapsDivTwo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MinScalerProd" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Spelling" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -480,7 +555,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -490,7 +565,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -538,7 +612,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="722" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,16 +623,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23662885" sideWeight="0.7009967" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29900333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23662885" sideWeight="0.99667776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36877078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,23 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ReverseWords/B-large-practice.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseWords/b.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="38" selection-start="293" selection-end="961" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReverseWords/a.out">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -668,75 +725,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spelling/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/Spelling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2127" selection-end="2275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="82" column="0" selection-start="2127" selection-end="2275" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MinScalerProduct/a.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MinScalerProduct/A-large-practice.in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MinScalerProduct/A-small-practice.in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spelling/a.out">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/google/MinScalerProd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MinScalerProduct/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/is/in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="11" selection-end="11" vertical-scroll-proportion="0.026132405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hr/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="28" selection-start="843" selection-end="843" vertical-scroll-proportion="0.006968641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheSwapsDivTwo/in">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/MinScalerProd.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tc/TheSwapsDivTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MinScalerProduct/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/is/in">
+    <entry file="file://$PROJECT_DIR$/src/com/tc/TheNumberGameDivTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+        <state line="30" column="5" selection-start="635" selection-end="635" vertical-scroll-proportion="0.78125">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hr/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="440" selection-end="440" vertical-scroll-proportion="0.4467005">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
