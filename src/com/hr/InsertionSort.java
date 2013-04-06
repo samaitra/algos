@@ -17,7 +17,7 @@ public class InsertionSort {
          int last = a[(n-1)];
 
          for(int i=(n-1);i>0;i--){
-             if(last>a[i-1]){
+             if(last>a[(i-1)]){
                  a[i]=last;
                  printArray(a);
                  break;
