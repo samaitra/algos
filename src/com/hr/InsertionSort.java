@@ -12,42 +12,41 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class InsertionSort {
-      static void insertionSort(int a[]){
-         int n = a.length;
-         //System.out.println("a length "+a.length);
-         int last = a[(n-1)];
-         //System.out.println("last "+last);
+    static void insertionSort(int a[]) {
+        int n = a.length;
 
-          if(n==1){
-              printArray(a);
-          }
-          else if(n==2){
+        if (n == 1) {
+            printArray(a);
+        } else if (n == 2) {
 
-             int temp = a[0];
-             a[0]=a[1];
-             a[1]=temp;
-              printArray(a);
-          }else{
-          int c=n-1;
-          for(int i=(n-1);i>0&&last<a[(i-1)];i--){
-             a[i]=a[i-1];
-             printArray(a);
-             c=i;
+            int temp = a[0];
+            a[0] = a[1];
+            a[1] = temp;
+            printArray(a);
+        } else {
+
+                for (int i = 1; i < n ; i++) {
+                    int j = i;
+                    int x=a[i];
+                    while (j>0 && a[j-1]>x){
+
+                        a[j] = a[j-1];
+                        j--;
+
+                    }
+                    a[j]=x;
+                    printArray(a);
+                }
+
             }
 
-             a[c-1]=last;
-//              System.out.println("c "+c);
-//              System.out.println("a[c] " + a[c]);
-//              System.out.println("last " + last);
-              printArray(a);
+    }
 
-          }
 
-     }
 
     static void printArray(int[] ar) {
-        for(int n: ar){
-            System.out.print(n+" ");
+        for (int n : ar) {
+            System.out.print(n + " ");
         }
         System.out.println("");
     }
@@ -58,11 +57,11 @@ public class InsertionSort {
             in = new Scanner(new FileReader("is/in"));
             int n = in.nextInt();
             int[] ar = new int[n];
-            for(int i=0;i<n;i++){
-                ar[i]=in.nextInt();
+            for (int i = 0; i < n; i++) {
+                ar[i] = in.nextInt();
             }
             insertionSort(ar);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
