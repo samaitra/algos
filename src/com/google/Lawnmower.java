@@ -15,19 +15,14 @@ import java.util.Scanner;
 public class Lawnmower {
 
     public static void main(String[] args) throws Exception{
-        Scanner in  = new Scanner(new FileReader("Lawnmower/B-small-attempt1(1).in"));
+        Scanner in  = new Scanner(new FileReader("Lawnmower/B-small-attempt2.in"));
         int n = in.nextInt();
         BufferedWriter bw = new BufferedWriter(new FileWriter("Lawnmower/a.out"));
-       CaseLoop: for(int k=0;k<n;k++){
+        for(int k=0;k<n;k++){
 
             int N = in.nextInt();
             int M = in.nextInt();
-
-            if( N==1 || N==2 ){
-                System.out.println("Case #" + (k + 1) + ": " + "YES");
-                bw.write("Case #"+(k+1)+": " + "YES" + "\n");
-                bw.flush();
-            }else{
+            //System.out.println("N M "+N+" "+M);
 
             int a[][] = new int[N][M];
 
@@ -38,10 +33,15 @@ public class Lawnmower {
             }
 
 
-                boolean flag = true;
-                OUTLOOP: for(int i=0;i<N;i++){
+               boolean flag = false;
+               OUTLOOP: for(int i=0;i<N;i++){
                     for(int j=0;j<M;j++){
-
+                        if(N<3||M<3){
+                            System.out.println("Case #" + (k + 1) + ": " + "YES");
+                            bw.write("Case #"+(k+1)+": " + "YES" + "\n");
+                            bw.flush();
+                            break OUTLOOP;
+                        }
                         if(i>0 && j>0 && i < (N-1) && j < (M-1)){
 
                             int innerVal = a[i][j];
@@ -49,9 +49,8 @@ public class Lawnmower {
                             int column = j;
 
                             if(checkRowLine(a,M,row,innerVal) || checkColumnLine(a,N,column,innerVal)){
-                                 //System.out.println("Case #" + (k + 1) + ": " + "YES");
-                                 //bw.write("Case #"+(k+1)+": " + "YES" + "\n");
-                                 //bw.flush();
+
+                                 flag=true;
 
                             }else {
                                  System.out.println("Case #" + (k + 1) + ": " + "NO");
@@ -60,6 +59,7 @@ public class Lawnmower {
                                  flag = false;
                                  break OUTLOOP;
 
+
                             }
 
 
@@ -67,15 +67,21 @@ public class Lawnmower {
 
                     }
                 }
-                if(flag){
-                System.out.println("Case #" + (k + 1) + ": " + "YES");
-                bw.write("Case #"+(k+1)+": " + "YES" + "\n");
-                bw.flush();
+
+                if(flag==true){
+                    System.out.println("Case #" + (k + 1) + ": " + "YES");
+                    bw.write("Case #"+(k+1)+": " + "YES" + "\n");
+                    bw.flush();
                 }
+
+
+
+
             }
 
 
-        }
+
+
         bw.close();
 
 
