@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Lawnmower {
 
     public static void main(String[] args) throws Exception{
-        Scanner in  = new Scanner(new FileReader("Lawnmower/B-small-attempt2.in"));
+        Scanner in  = new Scanner(new FileReader("Lawnmower/B-small-attempt3.in"));
         int n = in.nextInt();
         BufferedWriter bw = new BufferedWriter(new FileWriter("Lawnmower/a.out"));
         for(int k=0;k<n;k++){
@@ -36,13 +36,13 @@ public class Lawnmower {
                boolean flag = false;
                OUTLOOP: for(int i=0;i<N;i++){
                     for(int j=0;j<M;j++){
-                        if(N<3||M<3){
+                        if(N<4||M<4){
                             System.out.println("Case #" + (k + 1) + ": " + "YES");
                             bw.write("Case #"+(k+1)+": " + "YES" + "\n");
                             bw.flush();
                             break OUTLOOP;
                         }
-                        if(i>0 && j>0 && i < (N-1) && j < (M-1)){
+                        if(i>=0 && j>=0 && i < (N-1) && j < (M-1)){
 
                             int innerVal = a[i][j];
                             int row = i;
