@@ -2,16 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lawnmower/B-small-attempt2.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/Lawnmower.java" afterPath="$PROJECT_DIR$/src/com/google/Lawnmower.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lawnmower/a.out" afterPath="$PROJECT_DIR$/Lawnmower/a.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lawnmower/in" afterPath="$PROJECT_DIR$/Lawnmower/in" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlienLang/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlienLang/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Candies/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Candies/input01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Candies/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Candies/output01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FairAndSquare/C-large-1.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FairAndSquare/C-small-attempt0.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FairAndSquare/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FairAndSquare/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FindStrings/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FindStrings/input05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Flower/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Flower/input01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Flower/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Flower/output01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/B-small-attempt0.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/B-small-attempt1(1).in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/B-small-attempt1.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/B-small-attempt2.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lawnmower/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Median/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Median/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinScalerProduct/A-large-practice.in.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinScalerProduct/A-small-practice.in.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinScalerProduct/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinScalerProduct/a.out copy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinScalerProduct/input" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseWords/B-large-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseWords/B-small-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseWords/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseWords/b.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReverseWords/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spelling/C-large-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spelling/C-small-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spelling/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spelling/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StoreCredit/A-large-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StoreCredit/A-small-practice.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StoreCredit/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StoreCredit/b.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StoreCredit/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StringReduction/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StringReduction/input01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StringReduction/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StringSimilarity/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StringSimilarity/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheSwapsDivTwo/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TicTacToe/A-large.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TicTacToe/A-small-attempt0.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TicTacToe/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TicTacToe/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/alienlanguages/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balances/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/balances/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/is/in" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" afterPath="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
+    </list>
+    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist" />
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365874670550" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1367690285483" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -84,7 +139,7 @@
     <file path="/b.out" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364916343612" ignored="false" />
     <file path="/Spelling.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364974486191" ignored="false" />
     <file path="/MinScalerProd.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365160456275" ignored="false" />
-    <file path="/InsertionSort.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365360831977" ignored="false" />
+    <file path="/InsertionSort.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1367087175094" ignored="false" />
     <file path="/in" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365187655779" ignored="false" />
     <file path="/TheSwapsDivTwo.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365265954271" ignored="false" />
     <file path="/TheNumberGameDivTwo.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365267346635" ignored="false" />
@@ -101,7 +156,8 @@
     <file path="/FairAndSquare.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365839575570" ignored="false" />
     <file path="/Sample.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365841034658" ignored="false" />
     <file path="/TicTacToe.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365851595829" ignored="false" />
-    <file path="/Lawnmower.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365876874759" ignored="false" />
+    <file path="/Lawnmower.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365878634813" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365880954798" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +172,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -153,6 +208,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -161,55 +217,7 @@
     <favorites_list name="algos" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lawnmower/in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lawnmower/a.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lawnmower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/google/Lawnmower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="76" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="B-small-attempt1(1).in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt1(1).in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="757" column="31" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="B-small-attempt2.in" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt2.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="666" column="4" selection-start="7692" selection-end="7692" vertical-scroll-proportion="16.385017">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -227,8 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/is/in" />
-        <option value="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
         <option value="$PROJECT_DIR$/AlienLang/input.txt" />
         <option value="$PROJECT_DIR$/src/com/google/AlienLanguage.java" />
         <option value="$PROJECT_DIR$/src/com/hr/IcecreamParlor.java" />
@@ -243,6 +249,8 @@
         <option value="$PROJECT_DIR$/Lawnmower/a.out" />
         <option value="$PROJECT_DIR$/Lawnmower/in" />
         <option value="$PROJECT_DIR$/src/com/google/Lawnmower.java" />
+        <option value="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/is/in" />
       </list>
     </option>
   </component>
@@ -278,7 +286,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,92 +314,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lawnmower" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,9 +342,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -426,7 +358,7 @@
       <recent name="com.hr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lawnmower">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.InsertionSort" />
       <option name="VM_PARAMETERS" />
@@ -521,6 +453,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -546,19 +491,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -604,11 +536,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Lawnmower" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TicTacToe" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FairAndSquare" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AlienLanguage" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InsertionSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Lawnmower" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TicTacToe" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FairAndSquare" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AlienLanguage" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -685,11 +617,19 @@
       <created>1365703739969</created>
       <updated>1365703739969</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lawn mower">
+      <created>1365877371264</created>
+      <updated>1365877371264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lawn mower">
+      <created>1365880933140</created>
+      <updated>1365880933140</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="722" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -700,17 +640,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32392028" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2350081" sideWeight="0.4385382" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5614618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2350081" sideWeight="0.36710963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63289034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32392028" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -757,7 +697,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="icecream" />
+    <option name="LAST_COMMIT_MESSAGE" value="lawn mower" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -780,6 +720,7 @@
     <MESSAGE value="number soln" />
     <MESSAGE value="alien" />
     <MESSAGE value="icecream" />
+    <MESSAGE value="lawn mower" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,27 +730,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FairAndSquare/a.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/FairAndSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="30" selection-start="906" selection-end="1062" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_12.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="906" column="0" selection-start="34274" selection-end="34274" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TicTacToe/in">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" />
@@ -827,9 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="96" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="96" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt0.in">
@@ -842,53 +760,58 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lawnmower/in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lawnmower/a.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TicTacToe/a.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="990" column="85" selection-start="21687" selection-end="21687" vertical-scroll-proportion="0.4059406">
-          <folding />
-        </state>
+        <state line="990" column="85" selection-start="21687" selection-end="21687" vertical-scroll-proportion="0.4059406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="12" selection-start="310" selection-end="779" vertical-scroll-proportion="0.740099">
-          <folding />
-        </state>
+        <state line="31" column="12" selection-start="310" selection-end="779" vertical-scroll-proportion="0.740099" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt1(1).in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="757" column="31" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="757" column="31" selection-start="9887" selection-end="9887" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lawnmower/a.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.84375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt2.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="447" selection-end="520" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt3.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/Lawnmower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="76" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+        <state line="10" column="17" selection-start="199" selection-end="201" vertical-scroll-proportion="0.026041666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lawnmower/in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.3125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hr/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="36" selection-start="1518" selection-end="1518" vertical-scroll-proportion="1.796875">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lawnmower/B-small-attempt2.in">
+    <entry file="file://$PROJECT_DIR$/is/in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="666" column="4" selection-start="7692" selection-end="7692" vertical-scroll-proportion="16.385017">
+        <state line="1" column="23" selection-start="26" selection-end="26" vertical-scroll-proportion="0.026041666">
           <folding />
         </state>
       </provider>

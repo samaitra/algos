@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class InsertionSort {
     static void insertionSort(int a[]) {
         int n = a.length;
-
+        int count=0;
         if (n == 1) {
             printArray(a);
         } else if (n == 2) {
@@ -32,14 +32,16 @@ public class InsertionSort {
 
                         a[j] = a[j-1];
                         j--;
-
+                        count++;
                     }
+
                     a[j]=x;
-                    printArray(a);
+
+
                 }
 
             }
-
+        System.out.println(count);
     }
 
 
