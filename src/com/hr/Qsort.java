@@ -16,7 +16,9 @@ public class Qsort {
 
     static void quickSort(int[] ar) {
 
-
+        if(ar.length<=1){
+            return;
+        }else{
         int p = ar[0];
         int n = ar.length;
         int slen=1;
@@ -47,12 +49,13 @@ public class Qsort {
             }
 
         }
-
+        quickSort(smallArray);
+        quickSort(largeArray);
         smallArray[slen-1]=p;
         ar = concat(smallArray,largeArray);
         printArray(ar);
-
-
+         return;
+        }
     }
 
     static void printArray(int[] ar) {
