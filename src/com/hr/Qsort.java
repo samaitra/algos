@@ -14,11 +14,14 @@ import java.util.Scanner;
  */
 public class Qsort {
 
-    static void partition(int[] ar) {
+    static void quickSort(int[] ar) {
+
+
         int p = ar[0];
         int n = ar.length;
         int slen=1;
         int llen=0;
+
         for(int i=0;i<n;i++){
             if(ar[i]<p){
                 slen++;
@@ -44,8 +47,8 @@ public class Qsort {
             }
 
         }
-        smallArray[slen-1]=p;
 
+        smallArray[slen-1]=p;
         ar = concat(smallArray,largeArray);
         printArray(ar);
 
@@ -66,7 +69,7 @@ public class Qsort {
         for(int i=0;i<n;i++){
             ar[i]=in.nextInt();
         }
-        partition(ar);
+        quickSort(ar);
     }
 
     public static int[] concat(int [] A, int[] B) {
