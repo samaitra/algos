@@ -46,10 +46,13 @@ So the output for this problem would be:
 
 
 
-Q2. Given a coding system a-1, b-2 ... z=26
+Q2. Given a coding system
+
+a-1, b-2, c-3, d-4, e-5, f-6, g-7, h-8, i-9, j-10, k-11, l-12, m-13, n-14, o-15, p-16, q-17, r-18, s-19, t-20, u-21, v-22, w-23, x-24, y-25, z=26
+
 write a function which takes number as a string and returns number of interpretations.
 
-f(1) - a �- 1
-f(11) - aa, k -2
-f(111) - aaa, ak, ka - 3
-f(1111) - aaaa,aak,aka,kaa,kk
+f(1) = a ,so number of representation is  1
+f(11) = aa, k ,so number of representation is 2
+f(111) = aaa, ak, ka ,so number of representation is 3
+f(1111) = aaaa,aak,aka,kaa,kk ,so number of representation is 4
