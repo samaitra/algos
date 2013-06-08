@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="" />
-    <list id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="New changelist">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algos.iml" afterPath="$PROJECT_DIR$/algos.iml" />
+    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1370681666219" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1370681683368" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -100,7 +98,6 @@
     <file path="/TicTacToe.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365851595829" ignored="false" />
     <file path="/Lawnmower.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1365878634813" ignored="false" />
     <file path="/Qsort.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1368958541648" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1370681665901" ignored="false" />
     <file path="/Question" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1370681465790" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -573,7 +570,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="" />
-      <changelist id="eb3995da-b364-4f25-bdec-d917812b89e4" name="New changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1360956461464</created>
       <updated>1360956461464</updated>
     </task>
@@ -641,7 +638,11 @@
       <created>1370681671249</created>
       <updated>1370681671249</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="New changelist">
+      <created>1370681690054</created>
+      <updated>1370681690054</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +716,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="qsort in recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -740,6 +741,7 @@
     <MESSAGE value="icecream" />
     <MESSAGE value="lawn mower" />
     <MESSAGE value="qsort in recursion" />
+    <MESSAGE value="New changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
