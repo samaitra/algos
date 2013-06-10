@@ -33,6 +33,12 @@ public class KingdomConnectivity {
       City fc = cities[1];
       City lc = cities[N];
 
+      for(int i=0;i<M;i++){
+          int from = in.nextInt();
+          int to = in.nextInt();
+          cities[from].neighbours.add(cities[to]);
+      }
+
 
 
 
