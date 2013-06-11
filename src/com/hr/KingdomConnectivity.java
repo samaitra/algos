@@ -4,6 +4,8 @@ import java.io.FileReader;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.Stack;
+
 import static java.lang.System.out;
 
 /**
@@ -17,6 +19,8 @@ public class KingdomConnectivity {
 
   int N,M;
   int MOD = 1000000000;
+  boolean[] visited,visited2;
+  Stack<City> visitedCities = new Stack<City>();
   public static void main(String[] args) throws Exception{
       Scanner in = new Scanner(new FileReader("kc/in"));
 
@@ -39,12 +43,18 @@ public class KingdomConnectivity {
           cities[from].neighbours.add(cities[to]);
       }
 
-
-
-
-
+       countPath(fc);
 
   }
+
+    private static void countPath(City fc) {
+
+
+
+
+
+
+    }
 
 }
  class City{
