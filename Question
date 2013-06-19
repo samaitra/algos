@@ -46,6 +46,8 @@ So the output for this problem would be:
 
 
 
+
+
 Q2. Given a coding system
 
 a-1, b-2, c-3, d-4, e-5, f-6, g-7, h-8, i-9, j-10, k-11, l-12, m-13, n-14, o-15, p-16, q-17, r-18, s-19, t-20, u-21, v-22, w-23, x-24, y-25, z=26
@@ -56,3 +58,64 @@ f(1) = a ,so number of representation is  1
 f(11) = aa, k ,so number of representation is 2
 f(111) = aaa, ak, ka ,so number of representation is 3
 f(1111) = aaaa,aak,aka,kaa,kk ,so number of representation is 4
+
+
+Q3.
+Problem Statement
+    
+Given is a String num. This String contains the digits of a (possibly large) positive integer. For example, num="1147" represents the integer 1147. The String num will not have any leading zeros.
+You are allowed to swap one pair of digits in the given number. In other words, you may choose a pair of distinct indices i and j, and swap the characters num[i] and num[j]. Note that you may also leave the original number unchanged. The new String must again describe a valid positive integer, i.e., it must not have any leading zeros.
+Find and return the String that represents the smallest possible integer that can be obtained.
+Definition
+    
+Class:
+SwappingDigits
+Method:
+minNumber
+Parameters:
+String
+Returns:
+String
+Method signature:
+String minNumber(String num)
+(be sure your method is public)
+    
+
+Constraints
+-
+The length of num will be between 2 and 50, inclusive.
+-
+Each character of num will be between '0' and '9', inclusive.
+-
+The first character of num will not be '0'.
+Examples
+0)
+
+    
+"596"
+Returns: "569"
+You can swap num[1] and num[2] to get the minimum integer.
+1)
+
+    
+"93561"
+Returns: "13569"
+
+2)
+
+    
+"5491727514"
+Returns: "1491727554"
+
+3)
+
+    
+"10234"
+Returns: "10234"
+You can leave the original String num unchanged. Note that the result must not contain leading zeros.
+4)
+
+    
+"93218910471211292416"
+Returns: "13218910471211292496"
+
