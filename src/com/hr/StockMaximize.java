@@ -21,28 +21,28 @@ public class StockMaximize {
             for (int k=0;k<T;k++){
                 int n = in.nextInt();
                 int[] a = new int[n];
-                for(int x=0;x<n;x++){
-
+                for(int x=0;x<n;x++)
                     a[x] = in.nextInt();
-                    System.out.print(a[x]);
 
-                }
-                System.out.println();
+                getMaxProfit(a,n);
 
-
-                int profit = 0;
-                int buyValue=a[0];
-                for(int i=1;i<n;i++){
-
-                    if(a[i]>buyValue){
-                        profit = (a[i]-buyValue);
-                    }
-
-                    profit = Math.max(profit,a[i]-cheapest);
-
-                }
-                System.out.println(profit);
             }
+    }
+
+    private static void getMaxProfit(int[] a , int n) {
+
+        int[] right = new int[n];
+        right[n-1] = a[n-1];
+        for(int i=n-2;i>=0;i--){
+            right[i] = Math.max(right[i+1],a[i]);
+            System.out.println(right[i]);
+        }
+
+        long result = 0;
+        for(int i=0;i<n;++i){
+            result+=Math.max(0,right[i]-a[i]);
+        }
+        System.out.println(result);
     }
 
 }
