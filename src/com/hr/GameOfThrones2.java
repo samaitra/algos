@@ -17,50 +17,39 @@ import java.util.Map;
 public class GameOfThrones2 {
 
 
-    static boolean flag=false;
-    static HashSet<String> hs = new HashSet<String>();
+    public static void checkPalindrome(String s) {
 
-    public  static void permutation(String str) {
-        permutation("", str);
-    }
+        char[] chars = s.toCharArray();
+        HashMap<Character, Integer> charCount = new HashMap<Character, Integer>();
 
-    private static void permutation(String prefix, String str) {
-        int n = str.length();
-        if (n == 0) {
-            if(isAnagramPalindrome(prefix)){
-            hs.add(prefix);
+        for (int i = 0; i < chars.length; i++) {
+            Character mychar = chars[i];
+            if(charCount.get(mychar)!=null){
+                Integer count = charCount.get(mychar)+1;
+                charCount.put(mychar, count);
+            }else{
+                charCount.put(mychar,1);
             }
         }
-        else {
-            for (int i = 0; i < n; i++){
-                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i+1, n));
-            }
-        }
-    }
-
-    public static boolean isAnagramPalindrome(String s) {
-        int n = s.length();
-        for (int i=0;i<(n / 2) + 1;++i) {
-            if (s.charAt(i) != s.charAt(n - i - 1)) {
-                return false;
-            }
-        }
-
-        return true;
-
+        int num = chars.length/2;
+        int palindromes = factorial(num)/factorial(charCount.size());
+        System.out.println(palindromes%1000000007);
 
     }
-
+    public static int factorial(int n) {
+        int fact = 1; // this  will be the result
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
 
     public static void main(String[] args) throws Exception {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String str = bufferedReader.readLine();
-        permutation(str);
 
-        System.out.println(hs.size());
-        int val = (int)Math.pow(10, 9);
-        System.out.println(hs.size()%(val)+7);
+        checkPalindrome(str);
 
     }
 }
