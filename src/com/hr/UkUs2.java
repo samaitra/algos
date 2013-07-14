@@ -8,14 +8,16 @@ import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
- * User: saikat
- * Date: 7/4/13
- * Time: 1:50 AM
+ * User: Saikat
+ * Date: 7/14/13
+ * Time: 2:25 PM
  * To change this template use File | Settings | File Templates.
  */
-public class FindAWord {
+public class UkUs2 {
     public static void main(String[] args) throws Exception{
-        BufferedReader bufferedReader =new BufferedReader (new FileReader("findaword/in"));
+        //BufferedReader bufferedReader =new BufferedReader (new InputStreamReader(System.in));
+        BufferedReader bufferedReader =new BufferedReader (new FileReader("ukus2/in"));
+
         int n = Integer.parseInt(bufferedReader.readLine());
         StringBuilder sb = new StringBuilder();
         for(int i=0;i<n;++i){
@@ -26,22 +28,18 @@ public class FindAWord {
         int t = Integer.parseInt(bufferedReader.readLine());
         for(int i=0;i<t;++i){
 
-            String x = bufferedReader.readLine();
-            String[] inputArray = sb.toString().split("\\s");
+            String w = bufferedReader.readLine();
+            String x = w.substring(0,(w.length()-3));
+            Pattern p = Pattern.compile(x+"ou?r");
+            Matcher m = p.matcher(sb.toString());
             int c = 0;
-            for(String s:inputArray){
-            Pattern p = Pattern.compile("\\b\\W?"+x+"(\\b\\W?)",Pattern.CASE_INSENSITIVE);
-            Matcher m = p.matcher(s);
             while(m.find()){
+                c++;
+            }
 
-                //System.out.println(s);
-                c=c+1;
-            }
-            }
             System.out.println(c);
-            }
+
+        }
 
     }
-
-
 }

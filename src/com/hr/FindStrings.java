@@ -5,7 +5,7 @@ import java.util.*;
 
 
 public class FindStrings {
-    static HashMap<String,Integer> map  = new HashMap<>();
+    static HashMap<String,Integer> map  = new HashMap<String,Integer>();
 
     public static void main(String[] args) {
 

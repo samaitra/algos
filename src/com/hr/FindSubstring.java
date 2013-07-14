@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * Time: 1:50 AM
  * To change this template use File | Settings | File Templates.
  */
-public class FindAWord {
+public class FindSubstring {
     public static void main(String[] args) throws Exception{
         BufferedReader bufferedReader =new BufferedReader (new FileReader("findaword/in"));
         int n = Integer.parseInt(bufferedReader.readLine());
@@ -27,19 +27,15 @@ public class FindAWord {
         for(int i=0;i<t;++i){
 
             String x = bufferedReader.readLine();
-            String[] inputArray = sb.toString().split("\\s");
             int c = 0;
-            for(String s:inputArray){
-            Pattern p = Pattern.compile("\\b\\W?"+x+"(\\b\\W?)",Pattern.CASE_INSENSITIVE);
-            Matcher m = p.matcher(s);
-            while(m.find()){
+                Pattern p = Pattern.compile("\\w"+x+"\\w",Pattern.CASE_INSENSITIVE);
+                Matcher m = p.matcher(sb.toString());
+                while(m.find()){
 
-                //System.out.println(s);
-                c=c+1;
-            }
-            }
+                    c=c+1;
+                }
             System.out.println(c);
-            }
+        }
 
     }
 

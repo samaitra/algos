@@ -65,7 +65,7 @@ public class EvenTree {
 class Node {
 
     int id;
-    Set<Node> neighbours = new HashSet<>();
+    Set<Node> neighbours = new HashSet<Node>();
     Node(int i){
         id = i;
     }
