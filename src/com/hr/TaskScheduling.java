@@ -2,10 +2,7 @@ package com.hr;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -25,9 +22,9 @@ public class TaskScheduling {
             String a[] = line.split("\\s");
             d[i] = Integer.parseInt(a[0]);
             m[i] = Integer.parseInt(a[1]);
-            System.out.println(d[i]+" "+m[i]);
+            //System.out.println(d[i]+" "+m[i]);
         }
-        System.out.println("num of elements "+n);
+        //System.out.println("num of elements "+n);
         for(int i=0;i<n;i++){
           int dx[] = new int[(i+1)];
           int mx[] = new int[(i+1)];
@@ -45,14 +42,14 @@ public class TaskScheduling {
           Arrays.sort(mx);
 
           int len = mx.length;
-            System.out.println("len "+len);
+            //System.out.println("len "+len);
 
-            for(int j=0;j<(i+1);j++){
-
-                System.out.println("mx[j] before reverse sort " + mx[j] + " ");
-
-            }
-            System.out.println("--------------");
+//            for(int j=0;j<(i+1);j++){
+//
+//                System.out.println("mx[j] before reverse sort " + mx[j] + " ");
+//
+//            }
+//            System.out.println("--------------");
             for(int j=0;j<len/2;j++){
 
                 int temp = mx[j];
@@ -62,13 +59,13 @@ public class TaskScheduling {
             }
 
 
-            for(int j=0;j<(i+1);j++){
-
-                System.out.println("mx[j] after reverse sort " + mx[j] + " ");
-
-            }
-
-            System.out.println("--------------");
+//            for(int j=0;j<(i+1);j++){
+//
+//                System.out.println("mx[j] after reverse sort " + mx[j] + " ");
+//
+//            }
+//
+//            System.out.println("--------------");
 
 
 
