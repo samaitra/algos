@@ -29,23 +29,30 @@ public class TaskScheduling {
         }
         System.out.println("num of elements "+n);
         for(int i=0;i<n;i++){
-          int dx[] = new int[i+1];
-          int mx[] = new int[i+1];
+          int dx[] = new int[(i+1)];
+          int mx[] = new int[(i+1)];
 
 
 
-          System.arraycopy(d,0,dx,0,i);
-          System.arraycopy(m,0,mx,0,i);
+          System.arraycopy(d,0,dx,0,i+1);
+          System.arraycopy(m,0,mx,0,i+1);
           // use hashmap to store mx and dx values, so that after sorting mx we can still get dx value
           HashMap<Integer,Integer> timeMap = new HashMap<Integer,Integer>();
-          for(int k=0;k<i;k++){
+          for(int k=0;k<(i+1);k++){
              timeMap.put(mx[k],dx[k]);
           }
 
           Arrays.sort(mx);
 
-          int len = dx.length;
+          int len = mx.length;
             System.out.println("len "+len);
+
+            for(int j=0;j<(i+1);j++){
+
+                System.out.println("mx[j] before reverse sort " + mx[j] + " ");
+
+            }
+            System.out.println("--------------");
             for(int j=0;j<len/2;j++){
 
                 int temp = mx[j];
@@ -55,10 +62,9 @@ public class TaskScheduling {
             }
 
 
-            for(int j=0;j<i;j++){
+            for(int j=0;j<(i+1);j++){
 
-                System.out.print("mx[j] " + mx[j] + " ");
-                System.out.println();
+                System.out.println("mx[j] after reverse sort " + mx[j] + " ");
 
             }
 
@@ -66,7 +72,7 @@ public class TaskScheduling {
 
 
 
-            for(int j=0;j<i;j++){
+            for(int j=0;j<(i+1);j++){
                 int deadline = timeMap.get(mx[j]);
                 System.out.println("taskSlot order "+deadline+" task execution time Mi "+mx[j]+"");
             }
