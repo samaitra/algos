@@ -1,7 +1,5 @@
-package com.hr;/*
- Enter your code here. Read input from STDIN. Print output to STDOUT
- Your class should be named Solution
-*/
+package com.hr;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
