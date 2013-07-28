@@ -1,7 +1,5 @@
 package com.google;
 
-import sun.awt.SunToolkit;
-
 import java.io.FileReader;
 import java.util.Scanner;
 
