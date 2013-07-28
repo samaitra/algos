@@ -2,6 +2,7 @@ package com.hr;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -13,7 +14,9 @@ import java.util.*;
  */
 public class TaskScheduling {
     public static void main(String[] args) throws Exception{
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("taskscheduling/in"));
+//        BufferedReader bufferedReader = new BufferedReader(new FileReader("taskscheduling/in"));
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
         int n = Integer.parseInt(bufferedReader.readLine());
         List<Tasks> tasksList = new ArrayList<>();
         for(int i=0;i<n;i++){
@@ -30,29 +33,35 @@ public class TaskScheduling {
 
         //Collections.sort(tasksList,new DeadlineComparator());
 
+        List<Tasks> tempTaskList = new ArrayList<>();
 
+        for(int i=0;i<n;i++){
 
-        for(int i=0;i<2;i++){
+            Tasks t = tasksList.get(i);
+            tempTaskList.add(t);
 
-            List<Tasks> tempTaskList = new ArrayList<>();
             int missedDeadline = 0;
+
+
             for(int j=0;j<=i;j++){
 
-               Tasks t = tasksList.get(j);
-               tempTaskList.add(t);
                Collections.sort(tempTaskList,new DeadlineComparator());
-
+                //System.out.println("tempTaskList size "+tempTaskList.size());
+                //System.out.println("j "+j);
                 Tasks t1 = tempTaskList.get(j);
                 int deadline = t1.deadline;
                 int executionTime = t1.executionTime;
 
                 System.out.println(deadline+" "+executionTime);
 
+
+
                 if(j==i){
                     System.out.println(Math.abs(deadline-executionTime-missedDeadline));
                     System.out.println("-------------------");
 
-                }       missedDeadline = missedDeadline+executionTime;
+                }
+                missedDeadline = missedDeadline+executionTime;
 
 
 
