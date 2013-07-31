@@ -14,11 +14,11 @@ import java.util.Scanner;
  */
 public class MultiplyIntegers {
     public static void main(String args[]) throws Exception{
-      BufferedReader br = new BufferedReader(new FileReader("multiplyintegers/in"));
-      //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      //BufferedReader br = new BufferedReader(new FileReader("multiplyintegers/in"));
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
-    	int globalVal = 1;
+    	long globalVal = 1;
     	int[] a = new int[N];
     	int numZeros=0;
         for(int i=0;i<N;i++){
@@ -27,19 +27,16 @@ public class MultiplyIntegers {
 
             if(num==0){
                 numZeros++;
-            }
-
-            if(numZeros>=2){
-              globalVal=0;
-            }
-            else if(num!=0){
+            }else{
     		  globalVal = globalVal * num;
             }
     	}
     	for(int i=0;i<N;i++){
-    		if(a[i]==0){
+    		if(a[i]==0 && numZeros<=1){
                 System.out.println(globalVal);
-            }else if(a[i]!=0 && numZeros==1){
+            }else if(a[i]!=0 && numZeros>=1){
+                System.out.println(0);
+            }else if(numZeros>=2){
                 System.out.println(0);
             }
             else{
