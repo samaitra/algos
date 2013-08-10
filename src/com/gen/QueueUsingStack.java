@@ -23,6 +23,7 @@ public class QueueUsingStack {
                 spop.push(spush.pop());
             }
         }
+
         return spop.pop();
     }
 
