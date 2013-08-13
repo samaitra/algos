@@ -15,7 +15,7 @@ public class MaxHeapAndBinarySearchTree {
    public static void main(String[] args){
 
        List<Node> list = new ArrayList<Node>();
-       for(int i=0;i<list.size();i++){
+       for(int i=0;i<10;i++){
            list.add(new Node((int)(30 * Math.random()),(int)(30 * Math.random())));
        }
 
@@ -65,16 +65,16 @@ public class MaxHeapAndBinarySearchTree {
         if(root==null){
             return;
         }else{
-            System.out.println("("+root.heapVal+","+root.treeVal+")");
+            System.out.print("("+root.heapVal+","+root.treeVal+")");
             if(root.left!=null){
-                System.out.println("L->[");
+                System.out.print("L->[");
                 printNice(root.left);
-                System.out.println("]");
+                System.out.print("]");
             }
             if(root.right!=null){
-                System.out.println("R->[");
+                System.out.print("R->[");
                 printNice(root.right);
-                System.out.println("]");
+                System.out.print("]");
             }
 
 
