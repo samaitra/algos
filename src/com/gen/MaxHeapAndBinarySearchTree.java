@@ -14,7 +14,7 @@ public class MaxHeapAndBinarySearchTree {
 
    public static void main(String[] args){
 
-       List list = new ArrayList<>();
+       List<Node> list = new ArrayList<Node>();
        for(int i=0;i<list.size();i++){
            list.add(new Node((int)(30 * Math.random()),(int)(30 * Math.random())));
        }
@@ -24,15 +24,62 @@ public class MaxHeapAndBinarySearchTree {
        printNice(root);
    }
 
-    private static Node createHeapAndBST(List list) {
+    private static Node createHeapAndBST(List<Node> list) {
+
+        if(list.size()==0){
+            return null;
+        }
+        Node top = list.get(0);
 
 
+        for(Node node:list){
 
-        return null;  //To change body of created methods use File | Settings | File Templates.
+            if (node.heapVal>top.heapVal){
+                    top = node;
+            }
+        }
+
+        list.remove(top);
+
+        List<Node> leftList = new ArrayList<>();
+        List<Node> rightList = new ArrayList<>();
+
+        for(Node node : list){
+            if(node.treeVal<=top.treeVal){
+                leftList.add(node);
+            }else{
+                rightList.add(node);
+            }
+        }
+
+        top.left = createHeapAndBST(leftList);
+        top.right = createHeapAndBST(rightList);
+        return top;
+
+
     }
 
     private static void printNice(Node root) {
         //To change body of created methods use File | Settings | File Templates.
+
+        if(root==null){
+            return;
+        }else{
+            System.out.println("("+root.heapVal+","+root.treeVal+")");
+            if(root.left!=null){
+                System.out.println("L->[");
+                printNice(root.left);
+                System.out.println("]");
+            }
+            if(root.right!=null){
+                System.out.println("R->[");
+                printNice(root.right);
+                System.out.println("]");
+            }
+
+
+        }
+
     }
 
     static class Node{
