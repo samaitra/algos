@@ -18,12 +18,6 @@ public class ReverseList {
         b.next = c;
         c.next = null;
         printReverseListRecursive(a);
-        printReverseListIterative(a);
-    }
-
-    private static void printReverseListIterative(Node a) {
-
-
     }
 
     public static void printReverseListRecursive(Node n){
