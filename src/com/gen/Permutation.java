@@ -20,12 +20,26 @@ public class Permutation {
         List<Character> characters = new ArrayList<Character>();
         for(Character c : s.toCharArray()){
             characters.add(c);
-            findPerm(new ArrayList<>(),characters);
+            findPerm(new ArrayList(),characters);
         }
     }
 
-    private static void findPerm(List prefix,List suffix){
-
+    private static void findPerm(List<Character> prefix,List<Character> suffix){
+       if(suffix.size()==1){
+           for(Character ch:prefix){
+               System.out.print(ch);
+           }
+           System.out.println(suffix.get(0));
+           return;
+       }
+       for(int i=0;i < suffix.size();i++){
+           Character c = suffix.get(i);
+           prefix.add(c);
+           suffix.remove(i);
+           findPerm(prefix, suffix);
+           suffix.add(i,c);
+           prefix.remove(c);
+       }
 
     }
 }
