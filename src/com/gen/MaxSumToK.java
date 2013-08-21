@@ -11,7 +11,7 @@ public class MaxSumToK {
 
     public static void main(String[] args)
     {
-        int[]arr={4,6,3,9};
+        int[]arr={4,6,9};
         System.out.println(getMaxSum(arr, 14));
     }
     public static int getMaxSum(int[]arr,int k)
@@ -35,13 +35,15 @@ public class MaxSumToK {
             return memo[i][k];
         }
         System.out.println("arr[i] " + arr[i]);
-        System.out.println("[i] " + i);
-        System.out.println("[k] " + k);
-        System.out.println("=======");
-
+        //System.out.println("[i] " + i);
+        //System.out.println("[k] " + k);
 
         memo[i][k]=Math.max(getMaxSum(memo,arr,i+1,k), getMaxSum(memo,arr,i+1,k-arr[i])+arr[i]);
+        System.out.println("memo[i][k] " + memo[i][k]);
+        System.out.println("====================");
         return memo[i][k];
+
+
     }
 
 }
