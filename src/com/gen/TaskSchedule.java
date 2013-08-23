@@ -1,9 +1,6 @@
 package com.gen;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,45 +16,39 @@ public class TaskSchedule {
         tasksList.add(new Task(1,1,9.0,10.0));
         tasksList.add(new Task(2,1,10.5,11.0));
         tasksList.add(new Task(3,1,11.0,11.5));
-        tasksList.add(new Task(4,1,10.0,11.0));
-
-
-        HashSet<Task> attendList = new HashSet<>();
+        tasksList.add(new Task(4,2,11.0,11.5));
+        Collections.sort(tasksList);
+        System.out.println("tasksList");
         for(Task t : tasksList){
+            System.out.print(t.id + " ");
+        }
+        System.out.println();
+        System.out.println("========");
+        List<Task> attendList = new ArrayList<>();
+        attendList.add(tasksList.get(0));
+        Task t0 = tasksList.get(0);
 
-            for(Task t2 : tasksList){
-                if(t.id!=t2.id & !attendList.contains(t2)){
-                    if(t2.startTime>=t.endTime){
-                       attendList.add(t);
-                       attendList.add(t2);
-                    }if(t2.startTime<t.endTime){
-                        if(t.priority>=t2.priority){
-                            attendList.add(t);
-                        }
-                        else{
-                            attendList.add(t2);
-                        }
-                    }
+        for(int i=1;i<tasksList.size();i++){
 
-
-
-
-                }
+            Task t = tasksList.get(i);
+            if(t.startTime>=t0.endTime){
+                attendList.add(t);
             }
-
+            if(t.startTime<t0.endTime && t.priority>t0.priority){
+                attendList.remove(t0);
+                attendList.add(t);
+            }
+            t0 = t;
 
         }
 
-
-        for(Task at : attendList){
-            System.out.println(at.id);
+        System.out.println("attendList");
+        for(Task t : attendList){
+            System.out.print(t.id+" ");
         }
-
-
-
     }
 
-   static class Task{
+   public static class Task implements Comparable<Task>{
 
         int id;
         int priority;
@@ -71,5 +62,12 @@ public class TaskSchedule {
             this.endTime = endTime;
         }
 
-    }
+
+       @Override
+       public int compareTo(Task o) {
+           Double f1 = this.endTime;
+           Double f2 = o.endTime;
+           return f1.compareTo(f2);
+          }
+   }
 }
