@@ -2,6 +2,7 @@ package com.hr;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
@@ -13,6 +14,7 @@ import java.util.Scanner;
  */
 public class InsertionSort {
     static void insertionSort(int a[]) {
+
         int n = a.length;
         int count=0;
         if (n == 1) {
@@ -56,13 +58,18 @@ public class InsertionSort {
     public static void main(String[] args) {
         Scanner in;
         try {
-            in = new Scanner(new FileReader("is/in"));
+            //in = new Scanner(new FileReader("is/in"));
+            in = new Scanner(new InputStreamReader(System.in));
+            int t = in.nextInt();
+            for(int j=0;j<t;j++){
+
             int n = in.nextInt();
             int[] ar = new int[n];
             for (int i = 0; i < n; i++) {
                 ar[i] = in.nextInt();
             }
             insertionSort(ar);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
