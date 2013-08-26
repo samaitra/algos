@@ -29,12 +29,12 @@ public class AnyNumberSumUptoK {
             }
         }
 
-        for(int i=0;i<arr.length;i++){
-            for(int j=0;j<k;j++){
-                System.out.print(memo[i][j]+" ");
-            }
-            System.out.println();
-        }
+//        for(int i=0;i<arr.length;i++){
+//            for(int j=0;j<k;j++){
+//                System.out.print(memo[i][j]+" ");
+//            }
+//            System.out.println();
+//        }
 
 
         return memo[arr.length][k];

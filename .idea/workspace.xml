@@ -1,65 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="two sum upto k in unsorted array">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/AnagramSort.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/AnagramSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/AnyNumberSumUptoK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/ArithmaticSequence.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/ArithmaticSequence.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/BinaryTreeDistanceBetweenNodes.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/BinaryTreeDistanceBetweenNodes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/BinaryTreeKthSmallest.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/BinaryTreeKthSmallest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/BinaryTreeNodeSum.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/BinaryTreeNodeSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/BinaryTreeToLinkedList.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/BinaryTreeToLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/CheckBST.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/CheckBST.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/DiameterOfBInaryTree.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/DiameterOfBInaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/FindDeepestNodes.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/FindDeepestNodes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/FindOrderOfLetter.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/FindOrderOfLetter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/FindPathFromRoot.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/FindPathFromRoot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/FoldList.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/FoldList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/HashTest.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/HashTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/KthLargestSortedMatrix.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/KthLargestSortedMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/KthNodeFromEnd.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/KthNodeFromEnd.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LCS.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LCS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LargeNumber.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LargeNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LargestPalindrome.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LargestPalindrome.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LargestPalindromeRecursive.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LargestPalindromeRecursive.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LargestSum.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LargestSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/LowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/LowestCommonAncestor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MaxHeapAndBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MaxHeapAndBinarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MaxKMinHeap.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MaxKMinHeap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MaxSumToK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MaxSumToK.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MaxSumTree.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MaxSumTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/Median.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/Median.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MergeArrays.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MergeArrays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/MinMax.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/MinMax.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/NextPalindrome.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/NextPalindrome.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/NextSmallInteger.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/NextSmallInteger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/Permutation.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/Permutation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/PrintNodeOfSameLevel.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/PrintNodeOfSameLevel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/PrintSpiralMatrix.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/PrintSpiralMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/PrintTreeBottomToTop.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/PrintTreeBottomToTop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/PrintTreeBottomToTopPerLevel.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/PrintTreeBottomToTopPerLevel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/PrintTreeZigzag.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/PrintTreeZigzag.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/QueueUsingStack.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/QueueUsingStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/ReverseList.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/ReverseList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/ReverseWord.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/ReverseWord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SearchSortedMatrix.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SearchSortedMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SeparateWords.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SeparateWords.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/ShiftZerosToRight.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/ShiftZerosToRight.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/ShortestPathInMaze.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/ShortestPathInMaze.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SnakeAndLadders.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SnakeAndLadders.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/StackMin.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/StackMin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/StackSort.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/StackSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SubsetsArraySumToK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SubsetsArraySumToK.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SumPossibleAlongPathBinaryTree.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SumPossibleAlongPathBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/SwapWithoutTemp.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/SwapWithoutTemp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/TaskSchedule.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/TaskSchedule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/TwoNumbersSumToK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/TwoNumbersSumToK.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gen/UnsortedTwoNumbersSumToK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/UnsortedTwoNumbersSumToK.java" />
+    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java" afterPath="$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1377511430699" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1377512101084" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -219,7 +167,17 @@
     <favorites_list name="algos" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AnyNumberSumUptoK.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="30" selection-start="754" selection-end="754" vertical-scroll-proportion="0.4566745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -237,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Lawnmower/a.out" />
         <option value="$PROJECT_DIR$/Lawnmower/in" />
         <option value="$PROJECT_DIR$/src/com/google/Lawnmower.java" />
         <option value="$PROJECT_DIR$/src/com/hr/InsertionSort.java" />
@@ -253,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/com/gen/MaxSumToK.java" />
         <option value="$PROJECT_DIR$/src/com/gen/TaskSchedule.java" />
         <option value="$PROJECT_DIR$/src/com/gen/LargestPalindromeRecursive.java" />
+        <option value="$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java" />
       </list>
     </option>
   </component>
@@ -326,6 +284,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dsalgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -364,7 +344,7 @@
       <recent name="com.hr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestPalindromeRecursive">
+  <component name="RunManager" selected="Application.AnyNumberSumUptoK">
     <configuration default="false" name="TwoNumbersSumToK" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.dsalgo.TwoNumbersSumToK" />
       <option name="VM_PARAMETERS" />
@@ -548,10 +528,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LargestPalindromeRecursive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TaskSchedule" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MaxSumToK" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AnyNumberSumUptoK" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AnyNumberSumUptoK" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LargestPalindromeRecursive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TaskSchedule" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaxSumToK" />
         <item index="4" class="java.lang.String" itemvalue="Application.TwoNumbersSumToK" />
       </list>
     </recent_temporary>
@@ -684,7 +664,11 @@
       <created>1377263621951</created>
       <updated>1377263621951</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="refactor project package name">
+      <created>1377512128277</created>
+      <updated>1377512128277</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -700,18 +684,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21493213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32199547" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5008104" sideWeight="0.4385382" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.6719457" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.64285713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35714287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32199547" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -758,7 +742,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="largest palindrome recursive" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor project package name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -792,6 +776,7 @@
     <MESSAGE value="max sum upto k" />
     <MESSAGE value="Task List" />
     <MESSAGE value="largest palindrome recursive" />
+    <MESSAGE value="refactor project package name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -894,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dsalgo/AnyNumberSumUptoK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="114" selection-start="339" selection-end="339" vertical-scroll-proportion="0.2453271">
+        <state line="26" column="30" selection-start="754" selection-end="754" vertical-scroll-proportion="0.4566745">
           <folding />
         </state>
       </provider>
