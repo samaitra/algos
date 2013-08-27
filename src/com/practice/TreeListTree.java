@@ -29,14 +29,52 @@ public class TreeListTree {
          c.left = f;
          c.right = g;
 
-        //printTree(a);
         //convertToLinkedList(a, head, link);
         convertToLinkedList(a);
         printList(a);
+        System.out.println("======================");
         convertToTree(a);
+        printTree(a);
 
-       }
-        public static void printTree(Node root){
+
+    }
+
+    private static void convertToTree(Node n) {
+
+        if(n==null){
+            return;
+        }
+        Node treeRoot = new Node(n.data);
+
+        while(n!=null){
+            add(treeRoot,n);
+            n=n.next;
+        }
+    }
+    private static void add(Node root, Node n){
+
+        Node newNode = new Node(n.data);
+        if(newNode.data<root.data){
+            if(root.left==null){
+                root.left = newNode;
+            }else{
+                add(root.left,n);
+            }
+        }else{
+            if(root.right==null){
+                root.right = newNode;
+            }else{
+                add(root.right,n);
+            }
+        }
+
+
+    }
+
+
+
+
+    public static void printTree(Node root){
             // pre-order traversal
             if(root==null){
                 return;
@@ -87,6 +125,8 @@ public class TreeListTree {
             head = head.next;
             }
         }
+
+
 
         static class Node{
             int data;
