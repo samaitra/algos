@@ -15,9 +15,9 @@ import java.util.Scanner;
 public class Sample {
 
     public static void main(String[] args) throws Exception{
-        Scanner in  = new Scanner(new FileReader("Sample/in"));
+        Scanner in  = new Scanner(new FileReader("sample/in"));
         int n = in.nextInt();
-        BufferedWriter bw = new BufferedWriter(new FileWriter("Sample/a.out"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("sample/a.out"));
         for(int k=0;k<n;k++){
 
 
