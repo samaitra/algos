@@ -17,19 +17,27 @@ public class ReverseList {
         a.next = b;
         b.next = c;
         c.next = null;
-        printReverseListRecursive(a);
+        Node head = reverseList(a);
+        while(head!=null){
+            System.out.print(head.data+" ");
+            head = head.next;
+
+        }
     }
 
-    public static void printReverseListRecursive(Node n){
-        if(n.next==null)
-        {
-            System.out.println(n.data);
-            return;
+    public static Node reverseList(Node n){
+        Node cur = n;
+        Node prv = null;
+        Node nxt = null;
+
+        while(cur!=null){
+
+          nxt = cur.next;
+          cur.next = prv;
+          prv = cur;
+          cur=nxt;
         }
-        printReverseListRecursive(n.next);
-        System.out.println(n.data);
-
-
+        return prv;
     }
 
 
