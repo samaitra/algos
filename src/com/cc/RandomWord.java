@@ -5,8 +5,11 @@ import java.util.HashSet;
 
 public class RandomWord {
 
+    static HashSet<String> wordSet = new HashSet<>();
+
     public static void main(String[] args){
 
+        populateWordSet();
         String str = "restated";
         System.out.print(checkword(str));
 
@@ -25,7 +28,7 @@ public class RandomWord {
             String word = first+last;
 
             if(isValidWord(word)){
-                System.out.println(word);
+                //System.out.println(word);
                 if(checkword(word)){
                     return true;
                 }else{
@@ -42,7 +45,11 @@ public class RandomWord {
 
     public static boolean isValidWord(String str){
 
-        HashSet<String> wordSet = new HashSet<>();
+        return wordSet.contains(str);
+    }
+
+    public static void populateWordSet(){
+
         wordSet.add("restate");
         wordSet.add("estate");
         wordSet.add("state");
@@ -52,9 +59,5 @@ public class RandomWord {
         wordSet.add("at");
         wordSet.add("a");
 
-        return wordSet.contains(str);
-
-
     }
-
 }
