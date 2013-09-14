@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="Separate words">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hr/SherlockandTheBeast.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sherlockandthebeast/in" />
+    <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2s-complement_testcases/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2s-complement_testcases/input01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2s-complement_testcases/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2s-complement_testcases/output01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Balances_testcases/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Balances_testcases/input00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Balances_testcases/input01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Balances_testcases/output00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Balances_testcases/output01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Question" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/circularbuffer/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coin/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coin/in2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/encryption/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eventree/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/findaword/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/findhackerrank/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fraudprevention/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameofthrones1/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hackerranklanguage/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hackerranktweets/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmllinks/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmltags/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/is/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kc/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kc/in2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markntoys/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qsort/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sayinghi/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sherlockandthebeast/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stockmaximize/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/substring/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taskscheduling/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/treasurehunt/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/twoarrays/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ukus/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ukus2/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/validpanformat/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordfreq/in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zartanroads/in" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1379131034298" ignored="false" />
+    <file path="/Dummy.txt" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1379156827995" ignored="false" />
     <file path="/StringSimilarity.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364136878461" ignored="false" />
     <file path="/Balances.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364394714162" ignored="false" />
     <file path="/Node.java" changelist="d8bd157d-d0ce-4203-af5b-f534e80725a6" time="1364370314675" ignored="false" />
@@ -289,20 +327,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sherlockandthebeast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -749,7 +773,11 @@
       <created>1378549009494</created>
       <updated>1378549009495</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Sherlock and the beast">
+      <created>1379156835624</created>
+      <updated>1379156835624</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -823,7 +851,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fraud prevention" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sherlock and the beast" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -837,7 +865,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Order of letter" />
     <MESSAGE value="two sum upto k" />
     <MESSAGE value="two sum upto k in unsorted array" />
     <MESSAGE value="sum upto k" />
@@ -862,6 +889,7 @@
     <MESSAGE value="remove wine tasting" />
     <MESSAGE value="Separate words" />
     <MESSAGE value="fraud prevention" />
+    <MESSAGE value="Sherlock and the beast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
