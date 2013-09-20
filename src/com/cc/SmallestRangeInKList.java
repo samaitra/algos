@@ -56,7 +56,7 @@ public class SmallestRangeInKList {
               p3++;
           }
 
-          start++;
+
       }
       return str;
     }
