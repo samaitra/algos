@@ -2,6 +2,7 @@ package com.hr;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -18,15 +19,38 @@ public class SnakeAndLadders {
 
     public static void main (String[] args) throws Exception{
 
-        snakesAndLadders = new ArrayList<Movers>();
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("in"));
+        //BufferedReader bufferedReader = new BufferedReader(new FileReader("in"));
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String line = null;
 
         int n = Integer.parseInt(bufferedReader.readLine());
-        //TODO update Snake and ladders for hackerrank
+        for(int j=0;j<n;j++){
 
-        snakesAndLadders.add(new Movers(9, 31));
+        String[] numSnakeLadders = bufferedReader.readLine().split(",");
+
+        int numLadders = Integer.parseInt(numSnakeLadders[0]);
+        int numSnakes = Integer.parseInt(numSnakeLadders[1]);
+
+        snakesAndLadders = new ArrayList<Movers>();
+
+        String[] ladders = bufferedReader.readLine().split(" ");
+
+        for(String s : ladders){
+
+          String[] ladder = s.split(",");
+          snakesAndLadders.add(new Movers(Integer.parseInt(ladder[0]), Integer.parseInt(ladder[1])));
+
+        }
+
+        String[] snakes = bufferedReader.readLine().split(" ");
+
+        for(String s : snakes){
+            String[] snake = s.split(",");
+            snakesAndLadders.add(new Movers(Integer.parseInt(snake[0]), Integer.parseInt(snake[1])));
+
+        }
+
 
         int[] moveMap = new int[101];
 
@@ -64,16 +88,20 @@ public class SnakeAndLadders {
         }
         int cell=100;
         Stack<String> stack=new Stack<String>();
+        int c=0;
         while(cell!=1)
         {
             stack.push("new cell "+cell);
             stack.push("dice throw "+dice[cell]);
-
             cell=fromCell[cell];
+            c++;
         }
-        while(!stack.isEmpty())
-            System.out.println(stack.pop());
+            System.out.println(c);
+
+        //while(!stack.isEmpty())
+          //  System.out.println(stack.pop());
     }
+  }
 }
 
 
