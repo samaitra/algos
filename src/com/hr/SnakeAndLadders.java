@@ -28,10 +28,6 @@ public class SnakeAndLadders {
         for(int j=0;j<n;j++){
 
         String[] numSnakeLadders = bufferedReader.readLine().split(",");
-
-        int numLadders = Integer.parseInt(numSnakeLadders[0]);
-        int numSnakes = Integer.parseInt(numSnakeLadders[1]);
-
         snakesAndLadders = new ArrayList<Movers>();
 
         String[] ladders = bufferedReader.readLine().split(" ");
@@ -58,7 +54,6 @@ public class SnakeAndLadders {
             moveMap[movers.start] = movers.end;
 
         int[] minMove = new int[101];
-        int[] dice = new int[101];
         int[]fromCell=new int[101];
 
         LinkedList<Integer> queue = new LinkedList<Integer>();
@@ -73,7 +68,6 @@ public class SnakeAndLadders {
                 if (minMove[newCell] == 0)
                 {
                     minMove[newCell] = minMove[cell] + 1;
-                    dice[newCell]=i;
                     fromCell[newCell]=cell;
                     queue.add(newCell);
                 }
@@ -87,19 +81,15 @@ public class SnakeAndLadders {
 
         }
         int cell=100;
-        Stack<String> stack=new Stack<String>();
         int c=0;
         while(cell!=1)
         {
-            stack.push("new cell "+cell);
-            stack.push("dice throw "+dice[cell]);
             cell=fromCell[cell];
             c++;
         }
             System.out.println(c);
 
-        //while(!stack.isEmpty())
-          //  System.out.println(stack.pop());
+
     }
   }
 }
