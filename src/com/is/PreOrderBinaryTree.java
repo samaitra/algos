@@ -30,7 +30,7 @@ public class PreOrderBinaryTree {
        Node n = null;
        BinarySearchTree binarySearchTree = new BinarySearchTree();
        for(int i=(charsList.size()-1);i>=0;i--){
-           //System.out.println(charsList.get(i));
+           System.out.println(charsList.get(i));
            n = binarySearchTree.add(charsList.get(i));
 
        }
