@@ -17,6 +17,8 @@ public class TaskSchedule {
         tasksList.add(new Task(2,1,10.5,11.0));
         tasksList.add(new Task(3,1,11.0,11.5));
         tasksList.add(new Task(4,2,11.0,11.5));
+        tasksList.add(new Task(5,3,11.0,11.5));
+
         Collections.sort(tasksList);
         System.out.println("tasksList");
         for(Task t : tasksList){
@@ -27,7 +29,7 @@ public class TaskSchedule {
         List<Task> attendList = new ArrayList<>();
         attendList.add(tasksList.get(0));
         Task t0 = tasksList.get(0);
-
+        Stack<Task> pstack = new Stack<Task>();
         for(int i=1;i<tasksList.size();i++){
 
             Task t = tasksList.get(i);
@@ -37,11 +39,15 @@ public class TaskSchedule {
             if(t.startTime<t0.endTime && t.priority>t0.priority){
                 attendList.remove(t0);
                 attendList.add(t);
+                pstack.add(t0);
+
             }
             t0 = t;
 
         }
-
+        while(!pstack.empty()){
+            attendList.add(pstack.pop());
+        }
         System.out.println("attendList");
         for(Task t : attendList){
             System.out.print(t.id+" ");

@@ -1,4 +1,4 @@
-package com.ms;
+package com.assignments;
 
 import java.io.BufferedReader;
 import java.io.File;
