@@ -15,24 +15,39 @@ import java.util.List;
  */
 public class NumberCombination {
 
-    static List<Integer> l = new ArrayList<>();
-    static List<List<Integer>> resList = new ArrayList<>();
 
-    void reduce(List<Integer> l){
+    void reduce(List<List<Integer>> results, List<Integer> list, int sum, int last, int target, boolean isFirst){
 
+        if(sum==target){
+          results.add(list);
+          return;
+        }
 
+        while (sum + last > target )
+            last = last - 1;
+
+        int less = last - 1;
+        if(!isFirst && less > 0 && less + last< target){
+            List<Integer> copyList = new ArrayList<>(list);
+            reduce(results,copyList,sum,less,target,false);
+        }
+        sum = sum + last;
+        list.add(last);
+
+        reduce(results,list,sum,last,target,false);
 
     }
 
     public static void main(String[] args){
 
-        NumberCombination n = new NumberCombination();
-        System.out.print("l ");
-        for(int i : l){
-            System.out.print(i+" ");
-        }
+        List<List<Integer>> resList = new ArrayList<>();
+        int n = 4;
+        NumberCombination nc = new NumberCombination();
 
-        n.reduce(l);
+        for(int i=1;i<n;i++) {
+            List<Integer> l = new ArrayList<>();
+            nc.reduce(resList,l,0,i,n,true);
+        }
 
         for(List<Integer> mlist : resList ){
             for(Integer i: mlist){

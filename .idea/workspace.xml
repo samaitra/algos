@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bd157d-d0ce-4203-af5b-f534e80725a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/careercup/NumberCombination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/careercup/NumberCombination.java" afterPath="$PROJECT_DIR$/src/com/careercup/NumberCombination.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algos.iws" />
@@ -89,8 +89,8 @@
       <file leaf-file-name="NumberCombination.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/careercup/NumberCombination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3902439" vertical-offset="90" max-vertical-offset="795">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8780488" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -374,7 +374,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="algos" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -770,12 +776,6 @@
       <option name="number" value="Default" />
       <updated>1360956461464</updated>
     </task>
-    <task id="LOCAL-00014" summary="qsort in recursion">
-      <created>1368724061257</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1368724061257</updated>
-    </task>
     <task id="LOCAL-00015" summary="qsort in recursion">
       <created>1368959005629</created>
       <option name="number" value="00015" />
@@ -1064,7 +1064,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419844941229</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Combinations of a Number">
+      <created>1419864539426</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1419864539427</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1089,7 +1095,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29886913" sideWeight="0.20588236" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45101088" sideWeight="0.50080776" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16951789" sideWeight="0.50080776" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1145,7 +1151,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="interpretations" />
     <MESSAGE value="check anagrams" />
     <MESSAGE value="Merge binary tree" />
     <MESSAGE value="Bits manipulation" />
@@ -1170,11 +1175,12 @@
     <MESSAGE value="refactoring packages" />
     <MESSAGE value="k palindrome" />
     <MESSAGE value="Multiply Array Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiply Array Elements" />
+    <MESSAGE value="Combinations of a Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Combinations of a Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1538,8 +1544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/careercup/NumberCombination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3902439" vertical-offset="90" max-vertical-offset="795">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8780488" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
