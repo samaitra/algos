@@ -61,8 +61,8 @@ public class PossibleCodes {
      List<String> ret = new ArrayList<>();
      List<String> previousRet = new ArrayList<>();
      for(int i=0;i<s.length();i++) {
-         List<String> tl1 = new ArrayList<>();
-         List<String> tl2 = new ArrayList<>();
+         List<String> temp1 = new ArrayList<>();
+         List<String> temp2 = new ArrayList<>();
 
          if(i>=1) {
              String val = s.substring(i-1,i+1);
@@ -70,17 +70,17 @@ public class PossibleCodes {
              int v = Integer.valueOf(val);
              if(v<=26 && v>=10) {
                  String c = keyMap.get(val);
-                 tl1 = addCharToPrefix(previousRet, c);
+                 temp1 = addCharToPrefix(previousRet, c);
              }
          }
 
          String val = s.substring(i,i+1);
          String c = keyMap.get(val);
-         tl2 = addCharToPrefix(ret, c);
+         temp2 = addCharToPrefix(ret, c);
 
          previousRet = ret;
-         tl1.addAll(tl2);
-         ret = tl1;
+         temp1.addAll(temp2);
+         ret = temp1;
 
          }
          return ret;
