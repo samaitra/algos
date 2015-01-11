@@ -101,6 +101,6 @@ public class PossibleCodes {
         PossibleCodes p = new PossibleCodes();
         p.init();
 
-        p.get("123").stream().forEach(e->System.out.println(e));
+       // p.get("123").stream().forEach(e->System.out.println(e));
     }
 }

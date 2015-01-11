@@ -11,8 +11,8 @@ public class LCS {
 
     public static void main(String[] args){
 
-        String a = "alfkjalfjlkj";
-        String b = "ajflaklfjlaj";
+        String a = "alf";
+        String b = "ajf";
 
         String res = findLCS(a,b);
         System.out.print(res);
@@ -26,13 +26,13 @@ public class LCS {
             for(int j=b.length()-1;j>=0;--j){
                 if(a.charAt(i) == b.charAt(j)){
                     memo[i][j] = memo[i+1][j+1]+1;
-                    System.out.print(memo[i][j]);
+
                 }else{
                     memo[i][j] = Math.max(memo[i+1][j],memo[i][j+1]);
-                    System.out.print(memo[i][j]);
+
                 }
             }
-            System.out.println();
+
         }
         int i = 0;
         int j = 0;
