@@ -1,4 +1,4 @@
-package com.cc;
+package com.careercup;
 
 /**
  * Created by saikat on 01/09/14.

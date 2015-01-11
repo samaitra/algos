@@ -1,4 +1,4 @@
-package com.cc;
+package com.careercup;
 
 import java.util.HashMap;
 

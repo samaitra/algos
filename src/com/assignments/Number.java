@@ -1,10 +1,7 @@
-package com.ms;
+package com.assignments;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.ListIterator;
 
 

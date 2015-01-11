@@ -1,4 +1,4 @@
-package com.ms;
+package com.assignments;
 public class Hash {
 
 	static int max = 200;

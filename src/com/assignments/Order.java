@@ -1,4 +1,4 @@
-package com.ms;
+package com.assignments;
 public enum Order {
 
 	GREATER,
